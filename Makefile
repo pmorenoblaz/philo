@@ -6,7 +6,7 @@
 #    By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 12:55:30 by pmoreno-          #+#    #+#              #
-#    Updated: 2022/06/04 15:58:49 by pmoreno-         ###   ########.fr        #
+#    Updated: 2022/06/05 11:03:24 by pmoreno-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,7 +37,6 @@ all:		$(NAME)
 	$(GCC) $(CFLAGS) -c $< -o $@ 
 
 $(NAME):	$(OBJS)
-	@make -C $(LIBFT_PATH) --silent
 	$(CC) -o $(NAME) $(OBJS) -o $(NAME) -lpthread
 
 clean:		

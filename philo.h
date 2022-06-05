@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/06/04 16:22:33 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/06/05 11:26:29 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,14 @@
 # include <stdbool.h>
 # include <limits.h>
 
+typedef struct s_fork
+{
+	pthread_mutex_t	mutex;
+	int				id;
+	int				is_available;
+	struct s_fork	*next;
+}	t_fork;
+
 typedef struct s_philos_data
 {
 	int				nphilos;
@@ -39,7 +47,7 @@ typedef struct s_philos_data
 	struct s_philo	**list;
 	pthread_mutex_t	mutex;
 	struct timeval	start;
-}	t_data;
+}	t_philos_data;
 
 typedef struct s_philo
 {
@@ -54,7 +62,7 @@ typedef struct s_philo
     pthread_mutex_t	fork;
 }	t_philo;
 
-
+ 
 
 
 

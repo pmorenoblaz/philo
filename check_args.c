@@ -1,33 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   check_args.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/06/05 11:28:37 by pmoreno-         ###   ########.fr       */
+/*   Created: 2022/06/05 11:43:01 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/06/05 11:57:11 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void    leaks()
+int	ft_isalpha(char *str)
 {
-    system("leaks philo");
+	int i;
+
+    i = 0;
+    while (str[i])
+    {
+		if ((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122))
+			return (1);
+	}
+	return (0);
 }
 
-int main(int argc, char **argv)
+int	ft_check_args(char **argv, t_philos_data *data)
 {
-    t_philo         *philos;
-    t_philos_data   *data;
+	int	i;
 
-    atexit(leaks);
-    philos = 0;
-    data = malloc(sizeof(t_philos_data));
-    if (argc != 5)
-        return (0);
-    printf("%s", argv[0]);
-    free(data);
-    return (0);
+	i = 1;
+	while (argv[i])
+	{
+		if (ft_isalpha(argv[i]) == 1)
+		{
+			free(data);
+			return (1);
+		}
+		i++;
+	}
+	return (0);
 }
