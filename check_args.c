@@ -25,6 +25,9 @@ int	ft_isalpha(char *str)
 	return (0);
 }
 
+// asdjadhhasdhadllskad
+
+
 int	ft_check_args(char **argv, t_philos_data *data)
 {
 	int	i;
