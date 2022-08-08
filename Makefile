@@ -6,7 +6,7 @@
 #    By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 12:55:30 by pmoreno-          #+#    #+#              #
-#    Updated: 2022/06/05 11:03:24 by pmoreno-         ###   ########.fr        #
+#    Updated: 2022/08/08 14:10:13 by pmoreno-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ CIAN	= '\033[36m'
 WHITE	= '\033[37m'
 NONE	= '\033[0m'
 
-SRCS	= main.c
+SRCS	= main.c check_args.c ft_atoi.c ft_itoa.c ft_putchar_fd.c ft_putstr_fd.c routine.c  ft_strdup.c ft_strlcpy.c ft_strlen.c
 			
 OBJS	= $(SRCS:.c=.o)
 
@@ -41,7 +41,6 @@ $(NAME):	$(OBJS)
 
 clean:		
 	$(RM) $(OBJS)
-	make -C $(LIBFT_PATH) clean
 
 fclean:		clean
 		$(RM) $(NAME)

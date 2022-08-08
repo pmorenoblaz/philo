@@ -1,46 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_args.c                                       :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/05 11:43:01 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/08 14:16:16 by pmoreno-         ###   ########.fr       */
+/*   Created: 2021/09/15 11:01:09 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/08 14:09:23 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	ft_isalpha(char *str)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	int i;
+	size_t	i;
 
-    i = 0;
-    while (str[i])
-    {
-		if ((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122))
-			return (1);
+	if (dstsize == 0)
+		return (ft_strlen(src));
+	i = 0;
+	while (i < (dstsize - 1) && i < ft_strlen(src))
+	{
+		dst[i] = src[i];
+		i++;
 	}
-	return (0);
+	dst[i] = 0;
+	return (ft_strlen(src));
 }
-
-// asdjadhhasdhadllskad
-
-
-// int	ft_check_args(char **argv, t_philos_data *data)
-// {
-// 	int	i;
-
-// 	i = 1;
-// 	while (argv[i])
-// 	{
-// 		if (ft_isalpha(argv[i]) == 1)
-// 		{
-// 			free(data);
-// 			return (1);
-// 		}
-// 		i++;
-// 	}
-// 	return (0);
-// }

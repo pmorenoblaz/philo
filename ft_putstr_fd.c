@@ -1,46 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   check_args.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/05 11:43:01 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/08 14:16:16 by pmoreno-         ###   ########.fr       */
+/*   Created: 2021/09/23 14:09:21 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/08 13:50:40 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	ft_isalpha(char *str)
+void	ft_putstr_fd(char *s, int fd)
 {
-	int i;
+	int	i;
 
-    i = 0;
-    while (str[i])
-    {
-		if ((str[i] >= 65 && str[i] <= 90) || (str[i] >= 97 && str[i] <= 122))
-			return (1);
+	i = 0;
+	if (s == 0)
+		return ;
+	while (s[i] != 0)
+	{
+		write(fd, &s[i], 1);
+		i++;
 	}
-	return (0);
 }
-
-// asdjadhhasdhadllskad
-
-
-// int	ft_check_args(char **argv, t_philos_data *data)
-// {
-// 	int	i;
-
-// 	i = 1;
-// 	while (argv[i])
-// 	{
-// 		if (ft_isalpha(argv[i]) == 1)
-// 		{
-// 			free(data);
-// 			return (1);
-// 		}
-// 		i++;
-// 	}
-// 	return (0);
-// }

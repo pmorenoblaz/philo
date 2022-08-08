@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/06/06 20:19:31 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/08 14:10:05 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,15 @@ typedef struct s_philo
     pthread_t		thread;
     pthread_mutex_t	fork;
 }	t_philo;
+
+char	*ft_itoa(int n);
+char	*ft_strdup(const char *s1);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putchar_fd(char c, int fd);
+void	*ft_routine(void *ph);
+int		ft_get_time(void);
+size_t	ft_strlen(const char *s);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+
 
 #endif
