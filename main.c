@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/08 12:42:21 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/12 16:49:50 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	leaks(void)
 
 int	ft_check_args(int argc)
 {
-	if (argc < 5 || argc > 6)
+	if (argc < 4 || argc > 5)
 	{
 		printf("Incorrect number of argv\n");
 		printf("Usage: ./philosophers number_of_philo time_to_die ");
@@ -27,6 +27,15 @@ int	ft_check_args(int argc)
 		return (0);
 	}
 	return (1);
+}
+
+void	add_values(char **argv, t_philos_data **data)
+{
+	(*data)->time_die = ft_atoi(argv[1]);
+	(*data)->time_eat = ft_atoi(argv[2]);
+	(*data)->time_sleep = ft_atoi(argv[3]);
+	if (argv[4])
+		(*data)->philo_meals = ft_atoi(argv[4]);
 }
 
 int	main(int argc, char **argv)
@@ -41,6 +50,10 @@ int	main(int argc, char **argv)
 	{
 		free(data);
 		return (0);
+	}
+	else
+	{
+		add_values(argv, &data);
 	}
 	printf("%s", argv[0]);
 	free(data);

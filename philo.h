@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/08 14:10:05 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/12 16:44:52 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ typedef struct s_philos_data
 	int				philo_meals;
 	int				nsatisfied;
 	int				death;
-    int             alive;
+	int				alive;
 	int				hungry;
 	int				initial_time;
 	struct s_philo	**list;
@@ -47,11 +47,11 @@ typedef struct s_philo
 	int				philo;
 	int				meals;
 	int				last_meal;
-	int			    is_hungry;
+	int				is_hungry;
 	struct s_philo	*left;
 	struct s_philo	*right;
-    pthread_t		thread;
-    pthread_mutex_t	fork;
+	pthread_t		thread;
+	pthread_mutex_t	fork;
 }	t_philo;
 
 char	*ft_itoa(int n);
@@ -62,6 +62,6 @@ void	*ft_routine(void *ph);
 int		ft_get_time(void);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
-
+int		ft_atoi(const char *str);
 
 #endif
