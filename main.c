@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/16 17:41:33 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/16 17:52:38 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,43 +25,6 @@ void	init_philos_data(t_philos_data **data)
 	(*data)->time_eat = -1;
 	(*data)->time_sleep = -1;
 	(*data)->philo_meals = -1;
-}
-
-t_philo	*ft_lstlast(t_philo *lst)
-{
-	t_philo	*sig;
-
-	sig = lst;
-	if (!lst)
-		return (0);
-	while (sig->right != 0)
-		sig = sig->right;
-	return (sig);
-}
-
-t_philo	*ft_lstnew(int philo)
-{
-	t_philo	*aux;
-
-	aux = malloc(sizeof(t_philo));
-	if (aux == 0)
-		return (0);
-	aux->philo = philo;
-	aux->right = NULL;
-	return (aux);
-}
-
-void	ft_lstadd_back(t_philo **philos, t_philo *new_philo)
-{
-	t_philo	*aux;
-
-	if (*philos)
-	{
-		aux = ft_lstlast(*philos);
-		aux->right = new_philo;
-	}
-	else
-		*philos = new_philo;
 }
 
 int	ft_start_philos(t_philo **philos, t_philos_data *data)

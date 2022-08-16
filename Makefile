@@ -6,7 +6,7 @@
 #    By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 12:55:30 by pmoreno-          #+#    #+#              #
-#    Updated: 2022/08/16 16:53:53 by pmoreno-         ###   ########.fr        #
+#    Updated: 2022/08/16 17:52:50 by pmoreno-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ WHITE	= '\033[37m'
 NONE	= '\033[0m'
 
 SRCS	= main.c check_args.c ft_atoi.c ft_itoa.c ft_putchar_fd.c ft_putstr_fd.c routine.c  ft_strdup.c ft_strlcpy.c ft_strlen.c \
-			add_values.c time_values.c
+			add_values.c time_values.c list_functions.c
 			
 OBJS	= $(SRCS:.c=.o)
 

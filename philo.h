@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/16 17:02:55 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/16 17:53:40 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,9 @@ void	print_values(t_philos_data *data);
 int		ft_valid_args(char	*data);
 int		add_values(char **argv, t_philos_data **data);
 
+/* list_functions.c */
+t_philo	*ft_lstlast(t_philo *lst);
+t_philo	*ft_lstnew(int philo);
+void	ft_lstadd_back(t_philo **philos, t_philo *new_philo);
 
 #endif
