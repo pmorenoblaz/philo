@@ -6,21 +6,11 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 12:58:46 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/08 14:08:29 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/16 16:52:23 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
-
-int	ft_get_time(void)
-{
-	int				t;
-	struct timeval	time;
-
-	gettimeofday(&time, NULL);
-	t = time.tv_sec * 1000 + time.tv_usec / 1000;
-	return (t);
-}
 
 void	*ft_routine(void *ph)
 {
