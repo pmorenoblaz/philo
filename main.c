@@ -6,9 +6,15 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/16 17:52:38 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 17:31:08 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+- 0 filosofos
+- tiempo 0
+
+*/
 
 #include "philo.h"
 
@@ -17,7 +23,7 @@ void	leaks(void)
 	system("leaks philo");
 }
 
-void	init_philos_data(t_philos_data **data)
+void	init_data(t_philos_data **data)
 {
 	(*data)->initial_time = 0;
 	(*data)->nphilos = -1;
@@ -38,7 +44,7 @@ int	ft_start_philos(t_philo **philos, t_philos_data *data)
 		aux = ft_lstnew(i + 1);
 		if (!aux)
 		{
-			free(philos);
+			free_philosophers(philos);
 			free(data);
 			return (1);
 		}
@@ -51,15 +57,14 @@ int	ft_start_philos(t_philo **philos, t_philos_data *data)
 
 int	main(int argc, char **argv)
 {
-	t_philo			*philos;
 	t_philos_data	*data;
 
-	atexit(leaks);
-	philos = 0;
+	// atexit(leaks);
 	data = malloc(sizeof(t_philos_data));
 	if (!data)
 		return (1);
-	init_philos_data(&data);
+	data->list = 0;
+	init_data(&data);
 	// print_values(data);
 	if (ft_check_args(argc) == 0)
 	{
@@ -75,8 +80,11 @@ int	main(int argc, char **argv)
 			return (0);
 		}
 		print_values(data);
-		ft_start_philos(&philos, data);
+		if (ft_start_philos(&data->list, data) == 0)
+			ft_init_philosophers(data->list);
+		data->initial_time = ft_get_time();
 	}
+	free_philosophers(&data->list);
 	free(data);
 	return (0);
 }

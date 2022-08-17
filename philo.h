@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/16 17:53:40 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 17:13:51 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ typedef struct s_philos_data
 	int				alive;
 	int				hungry;
 	int				initial_time;
-	struct s_philo	**list;
+	struct s_philo	*list;
 	pthread_mutex_t	mutex;
 	struct timeval	start;
 }	t_philos_data;
@@ -48,7 +48,7 @@ typedef struct s_philo
 	int				meals;
 	int				last_meal;
 	int				is_hungry;
-	struct s_philo	*left;
+	// struct s_philo	*left;
 	struct s_philo	*right;
 	pthread_t		thread;
 	pthread_mutex_t	fork;
@@ -65,7 +65,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 int		ft_atoi(const char *str);
 
 /* main.c */
-void	init_philos_data(t_philos_data **data);
+void	init_data(t_philos_data **data);
 
 /* add_values.c */
 int		ft_check_args(int argc);
@@ -77,5 +77,8 @@ int		add_values(char **argv, t_philos_data **data);
 t_philo	*ft_lstlast(t_philo *lst);
 t_philo	*ft_lstnew(int philo);
 void	ft_lstadd_back(t_philo **philos, t_philo *new_philo);
+void	free_philosophers(t_philo **philos);
+void	ft_init_philosophers(t_philo *philo);
+void	print_philos(t_philo *philo);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 16:05:33 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/16 17:13:48 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 17:30:49 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ void	print_values(t_philos_data *data)
 	if (data->philo_meals != -1)
 		printf("Number of meals: %d \n", data->philo_meals);
 	printf("Initial time: %d\n", data->initial_time);
+	printf("Mutex: %p\n", &data->mutex);
 }
 
 int	ft_valid_args(char	*data)
@@ -59,12 +60,12 @@ int	ft_check_values(t_philos_data *data)
 
 int	add_values(char **argv, t_philos_data **data)
 {
-	(*data)->initial_time = ft_get_time();
 	(*data)->nphilos = ft_valid_args(argv[1]);
 	(*data)->time_die = ft_valid_args(argv[2]);
 	(*data)->time_eat = ft_valid_args(argv[3]);
 	(*data)->time_sleep = ft_valid_args(argv[4]);
 	if (argv[5])
 		(*data)->philo_meals = ft_valid_args(argv[5]);
+	pthread_mutex_init(&(*data)->mutex, NULL);
 	return (ft_check_values(*data));
 }
