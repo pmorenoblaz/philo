@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 17:52:08 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 18:01:38 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 18:55:28 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,24 +26,24 @@ t_philo	*ft_lstlast(t_philo *lst)
 
 t_philo	*ft_lstnew(int philo)
 {
-	t_philo	*aux;
+	t_philo	*sig;
 
-	aux = malloc(sizeof(t_philo));
-	if (aux == 0)
+	sig = malloc(sizeof(t_philo));
+	if (sig == 0)
 		return (0);
-	aux->philo = philo;
-	aux->right = NULL;
-	return (aux);
+	sig->philo = philo;
+	sig->right = NULL;
+	return (sig);
 }
 
 void	ft_lstadd_back(t_philo **philos, t_philo *new_philo)
 {
-	t_philo	*aux;
+	t_philo	*sig;
 
 	if (*philos)
 	{
-		aux = ft_lstlast(*philos);
-		aux->right = new_philo;
+		sig = ft_lstlast(*philos);
+		sig->right = new_philo;
 	}
 	else
 		*philos = new_philo;
@@ -62,6 +62,26 @@ void	free_philosophers(t_philo **philos)
 	}
 	free(*philos);
 }
+
+void	ft_link_philos(t_philo *philo)
+{
+	t_philo	*sig;
+
+	sig = philo;
+	while (sig)
+	{
+		if (sig->right)
+			sig->right->left = sig;
+		else
+		{
+			philo->left = sig;
+			sig->right = philo;
+			break ;
+		}
+		sig = sig->right;
+	}
+}
+
 
 void	print_philos(t_philo *philo)
 {
@@ -90,16 +110,43 @@ void	*ft_routine(void *philo)
 	ph->last_meal = ft_get_time();
 	if (ph->philo % 2 == 0 || (ph->philo == args->nphilos && ph->philo != 1))
 		usleep(args->time_eat * 500);
-	while (1)
-	{
-		if (args->alive == false || ph->is_hungry == false)
-			break ;
-		// if (ft_eating(ph))
-		// 	break ;
-		// ft_sleeping(ph);
-		// ft_print("is thinking", ph);
-	}
+	// while (1)
+	// {
+	// 	if (args->alive == false || ph->is_hungry == false)
+	// 		break ;
+	// 	if (ft_eating(ph))
+	// 		break ;
+	// 	ft_sleeping(ph);
+	// 	ft_print("is thinking", ph);
+	// }
 	return (NULL);
+}
+
+int	ft_destroy_mutex(t_philo *philo, t_philos_data *data)
+{
+	t_philo	*sig;
+
+	pthread_mutex_destroy(&data->mutex);
+	sig = philo;
+	while (sig)
+	{
+		pthread_mutex_destroy(&sig->fork);
+		sig = sig->right;
+	}
+	return (0);
+}
+
+int	ft_join_threads(t_philo *philo)
+{
+	t_philo	*sig;
+
+	sig = philo;
+	while (sig)
+	{
+		pthread_join(sig->thread, NULL);
+		sig = sig->right;
+	}
+	return (0);
 }
 
 void	ft_init_threads(t_philo *philo, void *routine)

@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 17:59:10 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 18:53:34 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ typedef struct s_philo
 	int						meals;
 	int						last_meal;
 	int						is_hungry;
+	struct s_philo			*left;
 	struct s_philo			*right;
 	pthread_t				thread;
 	pthread_mutex_t			fork;
@@ -80,5 +81,6 @@ void	ft_lstadd_back(t_philo **philos, t_philo *new_philo);
 void	free_philosophers(t_philo **philos);
 void	ft_init_philosophers(t_philo *philo, t_philos_data *data);
 void	print_philos(t_philo *philo);
+void	ft_link_philos(t_philo *philos);
 
 #endif
