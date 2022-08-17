@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 17:52:08 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 17:38:54 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/17 18:01:38 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,21 +80,42 @@ void	print_philos(t_philo *philo)
 	}
 }
 
-void	ft_init_threads(t_philo *philo)
+void	*ft_routine(void *philo)
+{
+	t_philo			*ph;
+	t_philos_data	*args;
+
+	ph = (t_philo *)philo;
+	args = ph->data;
+	ph->last_meal = ft_get_time();
+	if (ph->philo % 2 == 0 || (ph->philo == args->nphilos && ph->philo != 1))
+		usleep(args->time_eat * 500);
+	while (1)
+	{
+		if (args->alive == false || ph->is_hungry == false)
+			break ;
+		// if (ft_eating(ph))
+		// 	break ;
+		// ft_sleeping(ph);
+		// ft_print("is thinking", ph);
+	}
+	return (NULL);
+}
+
+void	ft_init_threads(t_philo *philo, void *routine)
 {
 	t_philo	*sig;
 
 	sig = philo;
 	while (sig)
 	{
-		pthread_create(&sig->fork, NULL, routine, philo);
-		pthread_mutex_init(&sig->fork, NULL);
+		pthread_create(&sig->thread, NULL, routine, sig);
 		sig = sig->right;
 	}
 	print_philos(philo);
 }
 
-void	ft_init_philosophers(t_philo *philo)
+void	ft_init_philosophers(t_philo *philo, t_philos_data *data)
 {
 	t_philo	*sig;
 
@@ -105,6 +126,7 @@ void	ft_init_philosophers(t_philo *philo)
 		sig->last_meal = 0;
 		sig->meals = 0;
 		pthread_mutex_init(&sig->fork, NULL);
+		sig->data = data;
 		sig = sig->right;
 	}
 	print_philos(philo);
