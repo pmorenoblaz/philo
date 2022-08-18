@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:35:34 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:38:34 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ int	main(int argc, char **argv)
 		data->initial_time = ft_get_time();
 		ft_init_threads(data->list, &ft_routine);
 		ft_join_threads(data->list);
+		ft_destroy_mutex(data->list);
 		sleep(1);
 	}
 	free_philosophers(data->list);

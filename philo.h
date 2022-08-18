@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:35:16 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:38:19 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,5 +85,6 @@ void	ft_link_philos(t_philo *philos);
 
 void	ft_init_threads(t_philo *philo, void *routine);
 int	ft_join_threads(t_philo *philo);
+int	ft_destroy_mutex(t_philo *philo);
 
 #endif
