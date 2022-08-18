@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 17:52:08 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:18:06 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:35:03 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,6 +126,7 @@ void	*ft_routine(void *philo)
 	// 	ft_sleeping(ph);
 	// 	ft_print("is thinking", ph);
 	// }
+	printf("HOLA soy %d\n", ph->philo);
 	return (NULL);
 }
 
@@ -158,6 +159,7 @@ int	ft_join_threads(t_philo *philo)
 		if (aux->right)
 			sig = aux->right;
 		pthread_join(sig->thread, NULL);
+		printf("ADIOS soy %d\n", aux->philo);
 		aux = sig;
 		if (sig->philo == 1)
 			return (0);
@@ -171,6 +173,7 @@ void	ft_init_threads(t_philo *philo, void *routine)
 	t_philo	*aux;
 
 	aux = philo;
+	printf("hola2\n");
 	while (aux)
 	{
 		if (aux->right)
@@ -180,7 +183,6 @@ void	ft_init_threads(t_philo *philo, void *routine)
 		if (sig->philo == 1)
 			return ;
 	}
-	print_philos(philo);
 }
 
 void	ft_init_philosophers(t_philo *philo, t_philos_data *data)

@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 16:51:59 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 16:37:17 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:29:52 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,5 @@ int	ft_get_time(void)
 
 	gettimeofday(&time, NULL);
 	t = time.tv_sec * 1000 + time.tv_usec / 1000;
-	printf("------>%d\n", t);
 	return (t);
 }
