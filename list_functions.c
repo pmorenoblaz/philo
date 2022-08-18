@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 17:52:08 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 18:55:28 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:18:06 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,18 +49,21 @@ void	ft_lstadd_back(t_philo **philos, t_philo *new_philo)
 		*philos = new_philo;
 }
 
-void	free_philosophers(t_philo **philos)
+void	free_philosophers(t_philo *philos)
 {
 	t_philo	*sig;
+	t_philo	*aux;
+	int		i;
 
-	sig = (*philos);
-	while (sig)
+	aux = philos;
+	i = 1;
+	while (i <= aux->data->nphilos)
 	{
-		sig = (*philos)->right;
-		free((*philos));
-		(*philos) = sig;
+		sig = aux->right;
+		free(aux);
+		aux = sig;
+		i++;
 	}
-	free(*philos);
 }
 
 void	ft_link_philos(t_philo *philo)
@@ -82,21 +85,25 @@ void	ft_link_philos(t_philo *philo)
 	}
 }
 
-
 void	print_philos(t_philo *philo)
 {
 	t_philo	*sig;
+	t_philo	*aux;
 
-	sig = philo;
-	while (sig)
+	aux = philo;
+	while (aux)
 	{
+		if (aux->right)
+			sig = aux->right;
 		printf("\n------------------\n");
-		printf("ID: %d \n", sig->philo);
-		printf("Meals: %d \n", sig->meals);
-		printf("Last meal: %d \n", sig->last_meal);
-		printf("Is hungry?: %d \n", sig->is_hungry);
-		printf("Mutex: %p\n", &sig->fork);
-		sig = sig->right;
+		printf("ID: %d \n", aux->philo);
+		printf("Meals: %d \n", aux->meals);
+		printf("Last meal: %d \n", aux->last_meal);
+		printf("Is hungry?: %d \n", aux->is_hungry);
+		printf("Mutex: %p\n", &aux->fork);
+		aux = sig;
+		if (sig->philo == 1)
+			return ;
 	}
 }
 
@@ -122,16 +129,20 @@ void	*ft_routine(void *philo)
 	return (NULL);
 }
 
-int	ft_destroy_mutex(t_philo *philo, t_philos_data *data)
+int	ft_destroy_mutex(t_philo *philo)
 {
 	t_philo	*sig;
+	t_philo	*aux;
 
-	pthread_mutex_destroy(&data->mutex);
-	sig = philo;
-	while (sig)
+	aux = philo;
+	while (aux)
 	{
+		if (aux->right)
+			sig = aux->right;
 		pthread_mutex_destroy(&sig->fork);
-		sig = sig->right;
+		aux = sig;
+		if (sig->philo == 1)
+			return (0);
 	}
 	return (0);
 }
@@ -139,12 +150,17 @@ int	ft_destroy_mutex(t_philo *philo, t_philos_data *data)
 int	ft_join_threads(t_philo *philo)
 {
 	t_philo	*sig;
+	t_philo	*aux;
 
-	sig = philo;
-	while (sig)
+	aux = philo;
+	while (aux)
 	{
+		if (aux->right)
+			sig = aux->right;
 		pthread_join(sig->thread, NULL);
-		sig = sig->right;
+		aux = sig;
+		if (sig->philo == 1)
+			return (0);
 	}
 	return (0);
 }
@@ -152,12 +168,17 @@ int	ft_join_threads(t_philo *philo)
 void	ft_init_threads(t_philo *philo, void *routine)
 {
 	t_philo	*sig;
+	t_philo	*aux;
 
-	sig = philo;
-	while (sig)
+	aux = philo;
+	while (aux)
 	{
+		if (aux->right)
+			sig = aux->right;
 		pthread_create(&sig->thread, NULL, routine, sig);
-		sig = sig->right;
+		aux = sig;
+		if (sig->philo == 1)
+			return ;
 	}
 	print_philos(philo);
 }
@@ -176,5 +197,4 @@ void	ft_init_philosophers(t_philo *philo, t_philos_data *data)
 		sig->data = data;
 		sig = sig->right;
 	}
-	print_philos(philo);
 }

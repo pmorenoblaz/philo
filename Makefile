@@ -6,7 +6,7 @@
 #    By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 12:55:30 by pmoreno-          #+#    #+#              #
-#    Updated: 2022/08/17 16:44:26 by pmoreno-         ###   ########.fr        #
+#    Updated: 2022/08/18 19:17:36 by pmoreno-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ OBJS	= $(SRCS:.c=.o)
 
 NAME	= philo
 
-CFLAGS	= -Wall -Werror -Wextra 
+CFLAGS	= -Wall -Werror -Wextra -g
 
 GCC	= gcc
 
@@ -38,7 +38,7 @@ all:		$(NAME)
 	$(GCC) $(CFLAGS) -c $< -o $@ 
 
 $(NAME):	$(OBJS)
-	$(CC) -o $(NAME) $(OBJS) -o $(NAME) -lpthread
+	$(CC) -o $(NAME) $(OBJS) -o $(NAME) -lpthread # -fsanitize=address
 
 clean:		
 	$(RM) $(OBJS)

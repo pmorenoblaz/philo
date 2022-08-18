@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 18:53:34 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:03:48 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ int		add_values(char **argv, t_philos_data **data);
 t_philo	*ft_lstlast(t_philo *lst);
 t_philo	*ft_lstnew(int philo);
 void	ft_lstadd_back(t_philo **philos, t_philo *new_philo);
-void	free_philosophers(t_philo **philos);
+void	free_philosophers(t_philo *philos);
 void	ft_init_philosophers(t_philo *philo, t_philos_data *data);
 void	print_philos(t_philo *philo);
 void	ft_link_philos(t_philo *philos);

@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 18:58:41 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/18 19:17:59 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int	ft_start_philos(t_philo **philos, t_philos_data *data)
 		aux = ft_lstnew(i + 1);
 		if (!aux)
 		{
-			free_philosophers(philos);
+			free_philosophers(*philos);
 			free(data);
 			return (1);
 		}
@@ -85,9 +85,8 @@ int	main(int argc, char **argv)
 		ft_link_philos(data->list);
 		print_philos(data->list);
 		data->initial_time = ft_get_time();
-
 	}
-	free_philosophers(&data->list);
+	free_philosophers(data->list);
 	free(data);
 	return (0);
 }
