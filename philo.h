@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:38:19 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/19 18:47:47 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ typedef struct s_philos_data
 	int				initial_time;
 	struct s_philo	*list;
 	pthread_mutex_t	mutex;
+	pthread_mutex_t	print;
+	pthread_mutex_t	life;
 	struct timeval	start;
 }	t_philos_data;
 
@@ -59,7 +61,6 @@ char	*ft_itoa(int n);
 char	*ft_strdup(const char *s1);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
-void	*ft_routine(void *ph);
 int		ft_get_time(void);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
@@ -70,7 +71,6 @@ void	init_data(t_philos_data **data);
 
 /* add_values.c */
 int		ft_check_args(int argc);
-void	print_values(t_philos_data *data);
 int		ft_valid_args(char	*data);
 int		add_values(char **argv, t_philos_data **data);
 
@@ -78,13 +78,32 @@ int		add_values(char **argv, t_philos_data **data);
 t_philo	*ft_lstlast(t_philo *lst);
 t_philo	*ft_lstnew(int philo);
 void	ft_lstadd_back(t_philo **philos, t_philo *new_philo);
-void	free_philosophers(t_philo *philos);
+
+/* philos.c */
+int		ft_start_philos(t_philo **philos, t_philos_data *data);
 void	ft_init_philosophers(t_philo *philo, t_philos_data *data);
-void	print_philos(t_philo *philo);
 void	ft_link_philos(t_philo *philos);
 
+
+/* free_functions.c */
+void	free_philosophers(t_philo *philos);
+
+/* print.c */
+void	print_values(t_philos_data *data);
+void	print_philos(t_philo *philo);
+void	print_action(char *str, t_philo *philo);
+
+/* threads.c */
 void	ft_init_threads(t_philo *philo, void *routine);
-int	ft_join_threads(t_philo *philo);
-int	ft_destroy_mutex(t_philo *philo);
+int		ft_join_threads(t_philo *philo);
+int		ft_destroy_mutex(t_philo *philo);
+
+/* routine.c */
+void	*ft_routine(void *philo);
+int		ft_eating(t_philo *philo);
+void	ft_sleeping(t_philo *philo);
+
+/* checker.c */
+void    checker(t_philo *philos);
 
 #endif

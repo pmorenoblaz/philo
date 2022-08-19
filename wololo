@@ -1,0 +1,2573 @@
+Number of philos: -1 
+Time to die: -1 
+Time to eat: -1 
+Time to sleep: -1 
+Initial time: 0
+Mutex: 0x7f96e7c02aa0
+Number of philos: 160 
+Time to die: 600 
+Time to eat: 300 
+Time to sleep: 200 
+Initial time: 0
+Mutex: 0x7f96e7c02aa0
+
+------------------
+ID: 1 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02b98
+
+------------------
+ID: 2 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02c08
+
+------------------
+ID: 3 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02c78
+
+------------------
+ID: 4 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02ce8
+
+------------------
+ID: 5 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02d58
+
+------------------
+ID: 6 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02dc8
+
+------------------
+ID: 7 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02e38
+
+------------------
+ID: 8 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02ea8
+
+------------------
+ID: 9 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02f18
+
+------------------
+ID: 10 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02f88
+
+------------------
+ID: 11 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c02ff8
+
+------------------
+ID: 12 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03068
+
+------------------
+ID: 13 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c030d8
+
+------------------
+ID: 14 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03148
+
+------------------
+ID: 15 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c031b8
+
+------------------
+ID: 16 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03228
+
+------------------
+ID: 17 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03298
+
+------------------
+ID: 18 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03308
+
+------------------
+ID: 19 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03378
+
+------------------
+ID: 20 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c033e8
+
+------------------
+ID: 21 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03458
+
+------------------
+ID: 22 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c034c8
+
+------------------
+ID: 23 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03538
+
+------------------
+ID: 24 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c035a8
+
+------------------
+ID: 25 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03618
+
+------------------
+ID: 26 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03688
+
+------------------
+ID: 27 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c036f8
+
+------------------
+ID: 28 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03768
+
+------------------
+ID: 29 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c037d8
+
+------------------
+ID: 30 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03848
+
+------------------
+ID: 31 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c038b8
+
+------------------
+ID: 32 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03928
+
+------------------
+ID: 33 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03998
+
+------------------
+ID: 34 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03a08
+
+------------------
+ID: 35 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03a78
+
+------------------
+ID: 36 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03ae8
+
+------------------
+ID: 37 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03b58
+
+------------------
+ID: 38 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03bc8
+
+------------------
+ID: 39 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03c38
+
+------------------
+ID: 40 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03ca8
+
+------------------
+ID: 41 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03d18
+
+------------------
+ID: 42 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03d88
+
+------------------
+ID: 43 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03df8
+
+------------------
+ID: 44 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03e68
+
+------------------
+ID: 45 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03ed8
+
+------------------
+ID: 46 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03f48
+
+------------------
+ID: 47 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c03fb8
+
+------------------
+ID: 48 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04028
+
+------------------
+ID: 49 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04098
+
+------------------
+ID: 50 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04108
+
+------------------
+ID: 51 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04178
+
+------------------
+ID: 52 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c041e8
+
+------------------
+ID: 53 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04258
+
+------------------
+ID: 54 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c042c8
+
+------------------
+ID: 55 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04338
+
+------------------
+ID: 56 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c043a8
+
+------------------
+ID: 57 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04418
+
+------------------
+ID: 58 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04488
+
+------------------
+ID: 59 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c044f8
+
+------------------
+ID: 60 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04568
+
+------------------
+ID: 61 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c045d8
+
+------------------
+ID: 62 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04648
+
+------------------
+ID: 63 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c046b8
+
+------------------
+ID: 64 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04728
+
+------------------
+ID: 65 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04798
+
+------------------
+ID: 66 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04808
+
+------------------
+ID: 67 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04878
+
+------------------
+ID: 68 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c048e8
+
+------------------
+ID: 69 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04958
+
+------------------
+ID: 70 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c049c8
+
+------------------
+ID: 71 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04a38
+
+------------------
+ID: 72 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04aa8
+
+------------------
+ID: 73 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04b18
+
+------------------
+ID: 74 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04b88
+
+------------------
+ID: 75 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04bf8
+
+------------------
+ID: 76 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04c68
+
+------------------
+ID: 77 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04cd8
+
+------------------
+ID: 78 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04d48
+
+------------------
+ID: 79 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04db8
+
+------------------
+ID: 80 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04e28
+
+------------------
+ID: 81 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04e98
+
+------------------
+ID: 82 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04f08
+
+------------------
+ID: 83 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04f78
+
+------------------
+ID: 84 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c04fe8
+
+------------------
+ID: 85 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05058
+
+------------------
+ID: 86 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c050c8
+
+------------------
+ID: 87 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05138
+
+------------------
+ID: 88 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c051a8
+
+------------------
+ID: 89 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05218
+
+------------------
+ID: 90 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05288
+
+------------------
+ID: 91 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c052f8
+
+------------------
+ID: 92 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05368
+
+------------------
+ID: 93 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c053d8
+
+------------------
+ID: 94 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05448
+
+------------------
+ID: 95 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c054b8
+
+------------------
+ID: 96 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05528
+
+------------------
+ID: 97 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05598
+
+------------------
+ID: 98 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05608
+
+------------------
+ID: 99 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05678
+
+------------------
+ID: 100 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c056e8
+
+------------------
+ID: 101 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05758
+
+------------------
+ID: 102 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c057c8
+
+------------------
+ID: 103 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05838
+
+------------------
+ID: 104 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c058a8
+
+------------------
+ID: 105 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05918
+
+------------------
+ID: 106 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05988
+
+------------------
+ID: 107 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c059f8
+
+------------------
+ID: 108 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05a68
+
+------------------
+ID: 109 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05ad8
+
+------------------
+ID: 110 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05b48
+
+------------------
+ID: 111 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05bb8
+
+------------------
+ID: 112 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05c28
+
+------------------
+ID: 113 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05c98
+
+------------------
+ID: 114 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05d08
+
+------------------
+ID: 115 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05d78
+
+------------------
+ID: 116 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05de8
+
+------------------
+ID: 117 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05e58
+
+------------------
+ID: 118 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05ec8
+
+------------------
+ID: 119 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05f38
+
+------------------
+ID: 120 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c05fa8
+
+------------------
+ID: 121 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06018
+
+------------------
+ID: 122 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06088
+
+------------------
+ID: 123 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c060f8
+
+------------------
+ID: 124 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06168
+
+------------------
+ID: 125 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c061d8
+
+------------------
+ID: 126 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06248
+
+------------------
+ID: 127 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c062b8
+
+------------------
+ID: 128 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06328
+
+------------------
+ID: 129 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06398
+
+------------------
+ID: 130 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06408
+
+------------------
+ID: 131 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06478
+
+------------------
+ID: 132 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c064e8
+
+------------------
+ID: 133 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06558
+
+------------------
+ID: 134 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c065c8
+
+------------------
+ID: 135 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06638
+
+------------------
+ID: 136 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c066a8
+
+------------------
+ID: 137 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06718
+
+------------------
+ID: 138 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06788
+
+------------------
+ID: 139 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c067f8
+
+------------------
+ID: 140 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06868
+
+------------------
+ID: 141 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c068d8
+
+------------------
+ID: 142 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06948
+
+------------------
+ID: 143 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c069b8
+
+------------------
+ID: 144 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06a28
+
+------------------
+ID: 145 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06a98
+
+------------------
+ID: 146 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06b08
+
+------------------
+ID: 147 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06b78
+
+------------------
+ID: 148 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06be8
+
+------------------
+ID: 149 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06c58
+
+------------------
+ID: 150 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06cc8
+
+------------------
+ID: 151 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06d38
+
+------------------
+ID: 152 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06da8
+
+------------------
+ID: 153 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06e18
+
+------------------
+ID: 154 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06e88
+
+------------------
+ID: 155 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06ef8
+
+------------------
+ID: 156 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06f68
+
+------------------
+ID: 157 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c06fd8
+
+------------------
+ID: 158 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c07048
+
+------------------
+ID: 159 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c070b8
+
+------------------
+ID: 160 
+Meals: 0 
+Last meal: 0 
+Is hungry?: 1 
+Mutex: 0x7f96e7c07128
+	0 ms 1	has taken a fork (right)
+	0 ms 3	has taken a fork (right)
+	0 ms 3	has taken a fork (left)
+	0 ms 3	is eating
+	0 ms 1	has taken a fork (left)
+	0 ms 5	has taken a fork (right)
+	0 ms 5	has taken a fork (left)
+	0 ms 5	is eating
+	0 ms 7	has taken a fork (right)
+	0 ms 7	has taken a fork (left)
+	0 ms 7	is eating
+	0 ms 9	has taken a fork (right)
+	0 ms 9	has taken a fork (left)
+	0 ms 9	is eating
+	0 ms 11	has taken a fork (right)
+	0 ms 11	has taken a fork (left)
+	0 ms 11	is eating
+	0 ms 13	has taken a fork (right)
+	0 ms 13	has taken a fork (left)
+	0 ms 13	is eating
+	0 ms 1	is eating
+	0 ms 15	has taken a fork (right)
+	0 ms 15	has taken a fork (left)
+	0 ms 15	is eating
+	0 ms 17	has taken a fork (right)
+	0 ms 17	has taken a fork (left)
+	0 ms 17	is eating
+	0 ms 19	has taken a fork (right)
+	0 ms 19	has taken a fork (left)
+	0 ms 19	is eating
+	0 ms 21	has taken a fork (right)
+	0 ms 21	has taken a fork (left)
+	0 ms 21	is eating
+	0 ms 23	has taken a fork (right)
+	0 ms 23	has taken a fork (left)
+	0 ms 23	is eating
+	0 ms 25	has taken a fork (right)
+	0 ms 25	has taken a fork (left)
+	0 ms 25	is eating
+	0 ms 27	has taken a fork (right)
+	0 ms 27	has taken a fork (left)
+	0 ms 27	is eating
+	0 ms 29	has taken a fork (right)
+	0 ms 29	has taken a fork (left)
+	0 ms 29	is eating
+	0 ms 31	has taken a fork (right)
+	0 ms 31	has taken a fork (left)
+	0 ms 31	is eating
+	0 ms 33	has taken a fork (right)
+	0 ms 33	has taken a fork (left)
+	0 ms 33	is eating
+	0 ms 35	has taken a fork (right)
+	0 ms 35	has taken a fork (left)
+	0 ms 35	is eating
+	0 ms 37	has taken a fork (right)
+	0 ms 37	has taken a fork (left)
+	0 ms 37	is eating
+	1 ms 39	has taken a fork (right)
+	1 ms 39	has taken a fork (left)
+	1 ms 39	is eating
+	1 ms 41	has taken a fork (right)
+	1 ms 41	has taken a fork (left)
+	1 ms 41	is eating
+	1 ms 43	has taken a fork (right)
+	1 ms 43	has taken a fork (left)
+	1 ms 43	is eating
+	1 ms 45	has taken a fork (right)
+	1 ms 45	has taken a fork (left)
+	1 ms 45	is eating
+	1 ms 47	has taken a fork (right)
+	1 ms 47	has taken a fork (left)
+	1 ms 47	is eating
+	1 ms 49	has taken a fork (right)
+	1 ms 49	has taken a fork (left)
+	1 ms 49	is eating
+	1 ms 51	has taken a fork (right)
+	1 ms 51	has taken a fork (left)
+	1 ms 51	is eating
+	1 ms 53	has taken a fork (right)
+	1 ms 53	has taken a fork (left)
+	1 ms 53	is eating
+	1 ms 55	has taken a fork (right)
+	1 ms 55	has taken a fork (left)
+	1 ms 55	is eating
+	1 ms 57	has taken a fork (right)
+	1 ms 57	has taken a fork (left)
+	1 ms 57	is eating
+	1 ms 59	has taken a fork (right)
+	1 ms 59	has taken a fork (left)
+	1 ms 59	is eating
+	1 ms 61	has taken a fork (right)
+	1 ms 61	has taken a fork (left)
+	1 ms 61	is eating
+	1 ms 63	has taken a fork (right)
+	1 ms 63	has taken a fork (left)
+	1 ms 63	is eating
+	1 ms 65	has taken a fork (right)
+	1 ms 65	has taken a fork (left)
+	1 ms 65	is eating
+	1 ms 67	has taken a fork (right)
+	1 ms 67	has taken a fork (left)
+	1 ms 67	is eating
+	1 ms 69	has taken a fork (right)
+	1 ms 69	has taken a fork (left)
+	1 ms 69	is eating
+	1 ms 71	has taken a fork (right)
+	1 ms 71	has taken a fork (left)
+	1 ms 71	is eating
+	1 ms 73	has taken a fork (right)
+	1 ms 73	has taken a fork (left)
+	1 ms 73	is eating
+	1 ms 75	has taken a fork (right)
+	1 ms 75	has taken a fork (left)
+	1 ms 75	is eating
+	1 ms 77	has taken a fork (right)
+	1 ms 77	has taken a fork (left)
+	1 ms 77	is eating
+	1 ms 79	has taken a fork (right)
+	1 ms 79	has taken a fork (left)
+	1 ms 79	is eating
+	1 ms 81	has taken a fork (right)
+	1 ms 81	has taken a fork (left)
+	1 ms 81	is eating
+	1 ms 83	has taken a fork (right)
+	1 ms 83	has taken a fork (left)
+	1 ms 83	is eating
+	1 ms 85	has taken a fork (right)
+	1 ms 85	has taken a fork (left)
+	1 ms 85	is eating
+	1 ms 87	has taken a fork (right)
+	1 ms 87	has taken a fork (left)
+	1 ms 87	is eating
+	1 ms 89	has taken a fork (right)
+	1 ms 89	has taken a fork (left)
+	1 ms 89	is eating
+	1 ms 91	has taken a fork (right)
+	1 ms 91	has taken a fork (left)
+	1 ms 91	is eating
+	1 ms 93	has taken a fork (right)
+	1 ms 93	has taken a fork (left)
+	1 ms 93	is eating
+	1 ms 95	has taken a fork (right)
+	1 ms 95	has taken a fork (left)
+	1 ms 95	is eating
+	1 ms 97	has taken a fork (right)
+	1 ms 97	has taken a fork (left)
+	1 ms 97	is eating
+	1 ms 99	has taken a fork (right)
+	1 ms 99	has taken a fork (left)
+	1 ms 99	is eating
+	1 ms 101	has taken a fork (right)
+	1 ms 101	has taken a fork (left)
+	1 ms 101	is eating
+	1 ms 103	has taken a fork (right)
+	1 ms 103	has taken a fork (left)
+	1 ms 103	is eating
+	1 ms 105	has taken a fork (right)
+	1 ms 105	has taken a fork (left)
+	1 ms 105	is eating
+	1 ms 107	has taken a fork (right)
+	1 ms 107	has taken a fork (left)
+	1 ms 107	is eating
+	1 ms 109	has taken a fork (right)
+	1 ms 109	has taken a fork (left)
+	1 ms 109	is eating
+	1 ms 111	has taken a fork (right)
+	1 ms 111	has taken a fork (left)
+	1 ms 111	is eating
+	1 ms 113	has taken a fork (right)
+	1 ms 113	has taken a fork (left)
+	1 ms 113	is eating
+	1 ms 115	has taken a fork (right)
+	1 ms 115	has taken a fork (left)
+	1 ms 115	is eating
+	1 ms 117	has taken a fork (right)
+	1 ms 117	has taken a fork (left)
+	1 ms 117	is eating
+	1 ms 119	has taken a fork (right)
+	1 ms 119	has taken a fork (left)
+	1 ms 119	is eating
+	1 ms 121	has taken a fork (right)
+	1 ms 121	has taken a fork (left)
+	1 ms 121	is eating
+	1 ms 123	has taken a fork (right)
+	1 ms 123	has taken a fork (left)
+	1 ms 123	is eating
+	1 ms 125	has taken a fork (right)
+	1 ms 125	has taken a fork (left)
+	1 ms 125	is eating
+	1 ms 127	has taken a fork (right)
+	1 ms 127	has taken a fork (left)
+	1 ms 127	is eating
+	1 ms 129	has taken a fork (right)
+	1 ms 129	has taken a fork (left)
+	1 ms 129	is eating
+	1 ms 131	has taken a fork (right)
+	1 ms 131	has taken a fork (left)
+	1 ms 131	is eating
+	1 ms 133	has taken a fork (right)
+	1 ms 133	has taken a fork (left)
+	1 ms 133	is eating
+	1 ms 135	has taken a fork (right)
+	1 ms 135	has taken a fork (left)
+	1 ms 135	is eating
+	1 ms 137	has taken a fork (right)
+	1 ms 137	has taken a fork (left)
+	1 ms 137	is eating
+	1 ms 139	has taken a fork (right)
+	1 ms 139	has taken a fork (left)
+	1 ms 139	is eating
+	1 ms 141	has taken a fork (right)
+	1 ms 141	has taken a fork (left)
+	1 ms 141	is eating
+	1 ms 143	has taken a fork (right)
+	1 ms 143	has taken a fork (left)
+	1 ms 143	is eating
+	1 ms 145	has taken a fork (right)
+	1 ms 145	has taken a fork (left)
+	1 ms 145	is eating
+	1 ms 147	has taken a fork (right)
+	1 ms 147	has taken a fork (left)
+	1 ms 147	is eating
+	1 ms 149	has taken a fork (right)
+	1 ms 149	has taken a fork (left)
+	1 ms 149	is eating
+	1 ms 151	has taken a fork (right)
+	1 ms 151	has taken a fork (left)
+	1 ms 151	is eating
+	1 ms 153	has taken a fork (right)
+	1 ms 153	has taken a fork (left)
+	1 ms 153	is eating
+	1 ms 155	has taken a fork (right)
+	1 ms 155	has taken a fork (left)
+	1 ms 155	is eating
+	2 ms 157	has taken a fork (right)
+	2 ms 157	has taken a fork (left)
+	2 ms 157	is eating
+	2 ms 159	has taken a fork (right)
+	2 ms 159	has taken a fork (left)
+	2 ms 159	is eating
+	300 ms 31	is sleeping
+	300 ms 3	is sleeping
+	300 ms 25	is sleeping
+	300 ms 15	is sleeping
+	300 ms 19	is sleeping
+	300 ms 9	is sleeping
+	300 ms 33	is sleeping
+	300 ms 37	is sleeping
+	300 ms 11	is sleeping
+	300 ms 24	has taken a fork (right)
+	300 ms 24	has taken a fork (left)
+	300 ms 24	is eating
+	300 ms 14	has taken a fork (right)
+	300 ms 1	is sleeping
+	300 ms 29	is sleeping
+	300 ms 17	is sleeping
+	300 ms 13	is sleeping
+	300 ms 18	has taken a fork (right)
+	300 ms 18	has taken a fork (left)
+	300 ms 32	has taken a fork (right)
+	300 ms 21	is sleeping
+	300 ms 27	is sleeping
+	300 ms 4	has taken a fork (right)
+	300 ms 22	has taken a fork (right)
+	300 ms 4	has taken a fork (left)
+	300 ms 30	has taken a fork (right)
+	300 ms 4	is eating
+	300 ms 30	has taken a fork (left)
+	300 ms 160	has taken a fork (right)
+	300 ms 30	is eating
+	300 ms 34	has taken a fork (right)
+	300 ms 2	has taken a fork (right)
+	300 ms 14	has taken a fork (left)
+	300 ms 12	has taken a fork (right)
+	300 ms 34	has taken a fork (left)
+	300 ms 34	is eating
+	300 ms 12	has taken a fork (left)
+	300 ms 12	is eating
+	300 ms 2	has taken a fork (left)
+	300 ms 16	has taken a fork (right)
+	300 ms 16	has taken a fork (left)
+	300 ms 26	has taken a fork (right)
+	300 ms 16	is eating
+	300 ms 26	has taken a fork (left)
+	300 ms 26	is eating
+	300 ms 10	has taken a fork (right)
+	300 ms 36	has taken a fork (right)
+	300 ms 5	is sleeping
+	300 ms 10	has taken a fork (left)
+	300 ms 28	has taken a fork (right)
+	300 ms 36	has taken a fork (left)
+	300 ms 28	has taken a fork (left)
+	300 ms 6	has taken a fork (right)
+	300 ms 6	has taken a fork (left)
+	300 ms 28	is eating
+	300 ms 36	is eating
+	300 ms 6	is eating
+	300 ms 10	is eating
+	300 ms 23	is sleeping
+	300 ms 14	is eating
+	300 ms 7	is sleeping
+	300 ms 22	has taken a fork (left)
+	300 ms 22	is eating
+	300 ms 20	has taken a fork (right)
+	300 ms 20	has taken a fork (left)
+	300 ms 8	has taken a fork (right)
+	300 ms 20	is eating
+	300 ms 8	has taken a fork (left)
+	300 ms 8	is eating
+	300 ms 32	has taken a fork (left)
+	300 ms 32	is eating
+	300 ms 2	is eating
+	300 ms 35	is sleeping
+	300 ms 18	is eating
+	301 ms 71	is sleeping
+	301 ms 131	is sleeping
+	301 ms 147	is sleeping
+	301 ms 41	is sleeping
+	301 ms 117	is sleeping
+	301 ms 55	is sleeping
+	301 ms 67	is sleeping
+	301 ms 137	is sleeping
+	301 ms 75	is sleeping
+	301 ms 79	is sleeping
+	301 ms 51	is sleeping
+	301 ms 63	is sleeping
+	301 ms 133	is sleeping
+	301 ms 53	is sleeping
+	301 ms 121	is sleeping
+	301 ms 125	is sleeping
+	301 ms 113	is sleeping
+	301 ms 149	is sleeping
+	301 ms 70	has taken a fork (right)
+	301 ms 130	has taken a fork (right)
+	301 ms 47	is sleeping
+	301 ms 54	has taken a fork (right)
+	301 ms 74	has taken a fork (right)
+	301 ms 54	has taken a fork (left)
+	301 ms 50	has taken a fork (right)
+	301 ms 66	has taken a fork (right)
+	301 ms 132	has taken a fork (right)
+	301 ms 52	has taken a fork (right)
+	301 ms 120	has taken a fork (right)
+	301 ms 62	has taken a fork (right)
+	301 ms 132	has taken a fork (left)
+	301 ms 112	has taken a fork (right)
+	301 ms 148	has taken a fork (right)
+	301 ms 46	has taken a fork (right)
+	301 ms 97	is sleeping
+	301 ms 69	is sleeping
+	301 ms 105	is sleeping
+	301 ms 85	is sleeping
+	301 ms 141	is sleeping
+	301 ms 153	is sleeping
+	301 ms 111	is sleeping
+	301 ms 103	is sleeping
+	301 ms 127	is sleeping
+	301 ms 59	is sleeping
+	301 ms 78	has taken a fork (right)
+	301 ms 155	is sleeping
+	301 ms 72	has taken a fork (right)
+	301 ms 122	has taken a fork (right)
+	301 ms 120	has taken a fork (left)
+	301 ms 100	has taken a fork (right)
+	301 ms 118	has taken a fork (right)
+	301 ms 62	has taken a fork (left)
+	301 ms 118	has taken a fork (left)
+	301 ms 130	has taken a fork (left)
+	301 ms 118	is eating
+	301 ms 98	has taken a fork (right)
+	301 ms 130	is eating
+	301 ms 60	has taken a fork (right)
+	301 ms 98	has taken a fork (left)
+	301 ms 60	has taken a fork (left)
+	301 ms 109	is sleeping
+	301 ms 139	is sleeping
+	301 ms 60	is eating
+	301 ms 49	is sleeping
+	301 ms 94	has taken a fork (right)
+	301 ms 65	is sleeping
+	301 ms 93	is sleeping
+	301 ms 115	is sleeping
+	301 ms 70	has taken a fork (left)
+	301 ms 106	has taken a fork (right)
+	301 ms 70	is eating
+	301 ms 106	has taken a fork (left)
+	301 ms 132	is eating
+	301 ms 104	has taken a fork (right)
+	301 ms 148	has taken a fork (left)
+	301 ms 104	has taken a fork (left)
+	301 ms 86	has taken a fork (right)
+	301 ms 104	is eating
+	301 ms 86	has taken a fork (left)
+	301 ms 140	has taken a fork (right)
+	301 ms 110	has taken a fork (right)
+	301 ms 140	has taken a fork (left)
+	301 ms 110	has taken a fork (left)
+	301 ms 56	has taken a fork (right)
+	301 ms 140	is eating
+	301 ms 110	is eating
+	301 ms 56	has taken a fork (left)
+	301 ms 102	has taken a fork (right)
+	301 ms 145	is sleeping
+	301 ms 102	has taken a fork (left)
+	301 ms 82	has taken a fork (right)
+	301 ms 134	has taken a fork (right)
+	301 ms 58	has taken a fork (right)
+	301 ms 134	has taken a fork (left)
+	301 ms 58	has taken a fork (left)
+	301 ms 101	is sleeping
+	301 ms 134	is eating
+	301 ms 119	is sleeping
+	301 ms 58	is eating
+	301 ms 38	has taken a fork (right)
+	301 ms 38	has taken a fork (left)
+	301 ms 38	is eating
+	301 ms 143	is sleeping
+	301 ms 61	is sleeping
+	301 ms 80	has taken a fork (right)
+	301 ms 80	has taken a fork (left)
+	301 ms 129	is sleeping
+	301 ms 89	is sleeping
+	301 ms 80	is eating
+	301 ms 151	is sleeping
+	301 ms 57	is sleeping
+	301 ms 95	is sleeping
+	301 ms 91	is sleeping
+	301 ms 108	has taken a fork (right)
+	301 ms 138	has taken a fork (right)
+	301 ms 138	has taken a fork (left)
+	301 ms 135	is sleeping
+	301 ms 138	is eating
+	301 ms 48	has taken a fork (right)
+	301 ms 48	has taken a fork (left)
+	301 ms 66	has taken a fork (left)
+	301 ms 48	is eating
+	301 ms 46	has taken a fork (left)
+	301 ms 124	has taken a fork (right)
+	301 ms 64	has taken a fork (right)
+	301 ms 124	has taken a fork (left)
+	301 ms 124	is eating
+	301 ms 46	is eating
+	301 ms 92	has taken a fork (right)
+	301 ms 81	is sleeping
+	301 ms 92	has taken a fork (left)
+	301 ms 144	has taken a fork (right)
+	301 ms 78	has taken a fork (left)
+	301 ms 78	is eating
+	301 ms 144	has taken a fork (left)
+	301 ms 144	is eating
+	301 ms 76	has taken a fork (right)
+	301 ms 76	has taken a fork (left)
+	301 ms 76	is eating
+	301 ms 122	has taken a fork (left)
+	301 ms 120	is eating
+	301 ms 122	is eating
+	301 ms 92	is eating
+	301 ms 62	is eating
+	301 ms 128	has taken a fork (right)
+	301 ms 128	has taken a fork (left)
+	301 ms 128	is eating
+	301 ms 88	has taken a fork (right)
+	301 ms 42	has taken a fork (right)
+	301 ms 88	has taken a fork (left)
+	301 ms 42	has taken a fork (left)
+	301 ms 142	has taken a fork (right)
+	301 ms 142	has taken a fork (left)
+	301 ms 142	is eating
+	301 ms 42	is eating
+	301 ms 77	is sleeping
+	301 ms 88	is eating
+	301 ms 90	has taken a fork (right)
+	301 ms 84	has taken a fork (right)
+	301 ms 68	has taken a fork (right)
+	301 ms 148	is eating
+	301 ms 68	has taken a fork (left)
+	301 ms 146	has taken a fork (right)
+	301 ms 68	is eating
+	301 ms 146	has taken a fork (left)
+	301 ms 96	has taken a fork (right)
+	301 ms 146	is eating
+	301 ms 96	has taken a fork (left)
+	301 ms 73	is sleeping
+	301 ms 112	has taken a fork (left)
+	301 ms 96	is eating
+	301 ms 123	is sleeping
+	301 ms 83	is sleeping
+	301 ms 66	is eating
+	301 ms 39	is sleeping
+	301 ms 74	has taken a fork (left)
+	301 ms 64	has taken a fork (left)
+	301 ms 74	is eating
+	301 ms 114	has taken a fork (right)
+	301 ms 98	is eating
+	301 ms 114	has taken a fork (left)
+	301 ms 94	has taken a fork (left)
+	301 ms 114	is eating
+	301 ms 106	is eating
+	301 ms 94	is eating
+	301 ms 90	has taken a fork (left)
+	301 ms 84	has taken a fork (left)
+	301 ms 86	is eating
+	301 ms 84	is eating
+	301 ms 152	has taken a fork (right)
+	301 ms 90	is eating
+	301 ms 152	has taken a fork (left)
+	301 ms 152	is eating
+	301 ms 112	is eating
+	301 ms 82	has taken a fork (left)
+	301 ms 126	has taken a fork (right)
+	301 ms 99	is sleeping
+	301 ms 82	is eating
+	301 ms 126	has taken a fork (left)
+	301 ms 56	is eating
+	301 ms 40	has taken a fork (right)
+	301 ms 126	is eating
+	301 ms 87	is sleeping
+	301 ms 40	has taken a fork (left)
+	301 ms 136	has taken a fork (right)
+	301 ms 108	has taken a fork (left)
+	301 ms 54	is eating
+	301 ms 136	has taken a fork (left)
+	301 ms 108	is eating
+	301 ms 52	has taken a fork (left)
+	301 ms 44	has taken a fork (right)
+	301 ms 136	is eating
+	301 ms 44	has taken a fork (left)
+	301 ms 52	is eating
+	301 ms 72	has taken a fork (left)
+	301 ms 72	is eating
+	301 ms 44	is eating
+	301 ms 45	is sleeping
+	301 ms 102	is eating
+	301 ms 100	has taken a fork (left)
+	301 ms 64	is eating
+	301 ms 154	has taken a fork (right)
+	301 ms 100	is eating
+	301 ms 154	has taken a fork (left)
+	301 ms 116	has taken a fork (right)
+	301 ms 116	has taken a fork (left)
+	301 ms 116	is eating
+	301 ms 50	has taken a fork (left)
+	301 ms 154	is eating
+	301 ms 107	is sleeping
+	301 ms 43	is sleeping
+	301 ms 150	has taken a fork (right)
+	301 ms 150	has taken a fork (left)
+	301 ms 40	is eating
+	301 ms 150	is eating
+	301 ms 50	is eating
+	302 ms 157	is sleeping
+	302 ms 156	has taken a fork (right)
+	302 ms 156	has taken a fork (left)
+	302 ms 156	is eating
+	302 ms 159	is sleeping
+	302 ms 160	has taken a fork (left)
+	302 ms 160	is eating
+	302 ms 158	has taken a fork (right)
+	302 ms 158	has taken a fork (left)
+	302 ms 158	is eating
+	500 ms 11	is thinking
+	500 ms 21	is thinking
+	500 ms 15	is thinking
+	500 ms 31	is thinking
+	500 ms 19	is thinking
+	500 ms 5	is thinking
+	500 ms 1	is thinking
+	500 ms 37	is thinking
+	500 ms 29	is thinking
+	500 ms 35	is thinking
+	500 ms 13	is thinking
+	500 ms 25	is thinking
+	500 ms 9	is thinking
+	500 ms 33	is thinking
+	500 ms 17	is thinking
+	500 ms 3	is thinking
+	500 ms 7	is thinking
+	500 ms 23	is thinking
+	500 ms 27	is thinking
+	501 ms 91	is thinking
+	501 ms 137	is thinking
+	501 ms 47	is thinking
+	501 ms 79	is thinking
+	501 ms 131	is thinking
+	501 ms 147	is thinking
+	501 ms 73	is thinking
+	501 ms 139	is thinking
+	501 ms 51	is thinking
+	501 ms 101	is thinking
+	501 ms 109	is thinking
+	501 ms 57	is thinking
+	501 ms 121	is thinking
+	501 ms 133	is thinking
+	501 ms 41	is thinking
+	501 ms 61	is thinking
+	501 ms 105	is thinking
+	501 ms 43	is thinking
+	501 ms 123	is thinking
+	501 ms 71	is thinking
+	501 ms 117	is thinking
+	501 ms 103	is thinking
+	501 ms 49	is thinking
+	501 ms 125	is thinking
+	501 ms 107	is thinking
+	501 ms 99	is thinking
+	501 ms 135	is thinking
+	501 ms 69	is thinking
+	501 ms 53	is thinking
+	501 ms 59	is thinking
+	501 ms 55	is thinking
+	501 ms 119	is thinking
+	501 ms 75	is thinking
+	501 ms 149	is thinking
+	501 ms 45	is thinking
+	501 ms 151	is thinking
+	501 ms 83	is thinking
+	501 ms 89	is thinking
+	501 ms 87	is thinking
+	501 ms 77	is thinking
+	501 ms 111	is thinking
+	501 ms 153	is thinking
+	501 ms 129	is thinking
+	501 ms 67	is thinking
+	501 ms 127	is thinking
+	501 ms 63	is thinking
+	501 ms 93	is thinking
+	501 ms 143	is thinking
+	501 ms 141	is thinking
+	501 ms 95	is thinking
+	501 ms 115	is thinking
+	501 ms 65	is thinking
+	501 ms 39	is thinking
+	501 ms 81	is thinking
+	501 ms 85	is thinking
+	501 ms 113	is thinking
+	501 ms 155	is thinking
+	501 ms 97	is thinking
+	501 ms 145	is thinking
+	502 ms 157	is thinking
+	502 ms 159	is thinking
+	600 ms 34	is sleeping
+	600 ms 28	is sleeping
+	600 ms 2	is sleeping
+	600 ms 12	is sleeping
+	600 ms 26	is sleeping
+	600 ms 33	has taken a fork (right)
+	600 ms 4	is sleeping
+	600 ms 1	has taken a fork (right)
+	600 ms 27	has taken a fork (right)
+	600 ms 27	has taken a fork (left)
+	600 ms 27	is eating
+	600 ms 24	is sleeping
+	600 ms 29	has taken a fork (right)
+	600 ms 29	has taken a fork (left)
+	600 ms 29	is eating
+	600 ms 11	has taken a fork (right)
+	600 ms 3	has taken a fork (right)
+	600 ms 3	has taken a fork (left)
+	600 ms 3	is eating
+	600 ms 25	has taken a fork (right)
+	600 ms 25	has taken a fork (left)
+	600 ms 25	is eating
+	600 ms 23	has taken a fork (right)
+	600 ms 30	is sleeping
+	600 ms 20	is sleeping
+	600 ms 19	has taken a fork (right)
+	600 ms 22	is sleeping
+	600 ms 23	has taken a fork (left)
+	600 ms 23	is eating
+	600 ms 21	has taken a fork (right)
+	600 ms 21	has taken a fork (left)
+	600 ms 21	is eating
+	600 ms 36	is sleeping
+	600 ms 16	is sleeping
+	600 ms 14	is sleeping
+	600 ms 15	has taken a fork (right)
+	600 ms 13	has taken a fork (right)
+	600 ms 13	has taken a fork (left)
+	600 ms 7	has taken a fork (right)
+	600 ms 32	is sleeping
+	600 ms 7	has taken a fork (left)
+	600 ms 7	is eating
+	600 ms 8	is sleeping
+	600 ms 11	has taken a fork (left)
+	600 ms 31	has taken a fork (right)
+	600 ms 19	has taken a fork (left)
+	600 ms 31	has taken a fork (left)
+	600 ms 10	is sleeping
+	600 ms 31	is eating
+	600 ms 35	has taken a fork (right)
+	600 ms 19	is eating
+	600 ms 35	has taken a fork (left)
+	600 ms 33	has taken a fork (left)
+	600 ms 33	is eating
+	600 ms 35	is eating
+	600 ms 9	has taken a fork (right)
+	600 ms 5	has taken a fork (right)
+	600 ms 9	has taken a fork (left)
+	600 ms 5	has taken a fork (left)
+	600 ms 11	is eating
+	600 ms 5	is eating
+	600 ms 15	has taken a fork (left)
+	600 ms 13	is eating
+	600 ms 15	is eating
+	600 ms 6	is sleeping
+	600 ms 18	is sleeping
+	600 ms 17	has taken a fork (right)
+	600 ms 17	has taken a fork (left)
+	600 ms 17	is eating
+	600 ms 9	is eating
+	601 ms 40	is sleeping
+	601 ms 84	is sleeping
+	601 ms 138	is sleeping
+	601 ms 39	has taken a fork (right)
+	601 ms 112	is sleeping
+	601 ms 83	has taken a fork (right)
+	601 ms 137	has taken a fork (right)
+	601 ms 111	has taken a fork (right)
+	601 ms 148	is sleeping
+	601 ms 52	is sleeping
+	601 ms 108	is sleeping
+	601 ms 60	is sleeping
+	601 ms 98	is sleeping
+	601 ms 147	has taken a fork (right)
+	601 ms 51	has taken a fork (right)
+	601 ms 42	is sleeping
+	601 ms 85	has taken a fork (right)
+	601 ms 145	has taken a fork (right)
+	601 ms 38	is sleeping
+	601 ms 146	is sleeping
+	601 ms 142	is sleeping
+	601 ms 68	is sleeping
+	601 ms 118	is sleeping
+	601 ms 152	is sleeping
+	601 ms 136	is sleeping
+	601 ms 71	has taken a fork (right)
+	601 ms 64	is sleeping
+	601 ms 147	has taken a fork (left)
+	601 ms 147	is eating
+	601 ms 100	is sleeping
+	601 ms 154	is sleeping
+	601 ms 37	has taken a fork (right)
+	601 ms 50	is sleeping
+	601 ms 37	has taken a fork (left)
+	601 ms 37	is eating
+	601 ms 48	is sleeping
+	601 ms 120	is sleeping
+	601 ms 44	is sleeping
+	601 ms 132	is sleeping
+	601 ms 127	has taken a fork (right)
+	601 ms 127	has taken a fork (left)
+	601 ms 127	is eating
+	601 ms 82	is sleeping
+	601 ms 140	is sleeping
+	601 ms 102	is sleeping
+	601 ms 88	is sleeping
+	601 ms 85	has taken a fork (left)
+	601 ms 80	is sleeping
+	601 ms 46	is sleeping
+	601 ms 124	is sleeping
+	601 ms 56	is sleeping
+	601 ms 137	has taken a fork (left)
+	601 ms 137	is eating
+	601 ms 97	has taken a fork (right)
+	601 ms 67	has taken a fork (right)
+	601 ms 70	is sleeping
+	601 ms 67	has taken a fork (left)
+	601 ms 58	is sleeping
+	601 ms 67	is eating
+	601 ms 130	is sleeping
+	601 ms 117	has taken a fork (right)
+	601 ms 122	is sleeping
+	601 ms 135	has taken a fork (right)
+	601 ms 106	is sleeping
+	601 ms 151	has taken a fork (right)
+	601 ms 96	is sleeping
+	601 ms 116	is sleeping
+	601 ms 103	has taken a fork (right)
+	601 ms 125	has taken a fork (right)
+	601 ms 128	is sleeping
+	601 ms 103	has taken a fork (left)
+	601 ms 125	has taken a fork (left)
+	601 ms 114	is sleeping
+	601 ms 125	is eating
+	601 ms 103	is eating
+	601 ms 107	has taken a fork (right)
+	601 ms 107	has taken a fork (left)
+	601 ms 74	is sleeping
+	601 ms 107	is eating
+	601 ms 39	has taken a fork (left)
+	601 ms 62	is sleeping
+	601 ms 39	is eating
+	601 ms 66	is sleeping
+	601 ms 79	has taken a fork (right)
+	601 ms 55	has taken a fork (right)
+	601 ms 79	has taken a fork (left)
+	601 ms 123	has taken a fork (right)
+	601 ms 79	is eating
+	601 ms 123	has taken a fork (left)
+	601 ms 85	is eating
+	601 ms 123	is eating
+	601 ms 57	has taken a fork (right)
+	601 ms 150	is sleeping
+	601 ms 57	has taken a fork (left)
+	601 ms 129	has taken a fork (right)
+	601 ms 77	has taken a fork (right)
+	601 ms 121	has taken a fork (right)
+	601 ms 77	has taken a fork (left)
+	601 ms 76	is sleeping
+	601 ms 95	has taken a fork (right)
+	601 ms 77	is eating
+	601 ms 117	has taken a fork (left)
+	601 ms 135	has taken a fork (left)
+	601 ms 117	is eating
+	601 ms 115	has taken a fork (right)
+	601 ms 72	is sleeping
+	601 ms 41	has taken a fork (right)
+	601 ms 113	has taken a fork (right)
+	601 ms 41	has taken a fork (left)
+	601 ms 113	has taken a fork (left)
+	601 ms 41	is eating
+	601 ms 134	is sleeping
+	601 ms 113	is eating
+	601 ms 73	has taken a fork (right)
+	601 ms 111	has taken a fork (left)
+	601 ms 93	has taken a fork (right)
+	601 ms 111	is eating
+	601 ms 93	has taken a fork (left)
+	601 ms 153	has taken a fork (right)
+	601 ms 99	has taken a fork (right)
+	601 ms 153	has taken a fork (left)
+	601 ms 99	has taken a fork (left)
+	601 ms 91	has taken a fork (right)
+	601 ms 153	is eating
+	601 ms 90	is sleeping
+	601 ms 99	is eating
+	601 ms 51	has taken a fork (left)
+	601 ms 91	has taken a fork (left)
+	601 ms 51	is eating
+	601 ms 91	is eating
+	601 ms 47	has taken a fork (right)
+	601 ms 92	is sleeping
+	601 ms 47	has taken a fork (left)
+	601 ms 119	has taken a fork (right)
+	601 ms 47	is eating
+	601 ms 119	has taken a fork (left)
+	601 ms 83	has taken a fork (left)
+	601 ms 119	is eating
+	601 ms 61	has taken a fork (right)
+	601 ms 83	is eating
+	601 ms 81	has taken a fork (right)
+	601 ms 61	has taken a fork (left)
+	601 ms 59	has taken a fork (right)
+	601 ms 61	is eating
+	601 ms 145	has taken a fork (left)
+	601 ms 59	has taken a fork (left)
+	601 ms 145	is eating
+	601 ms 143	has taken a fork (right)
+	601 ms 59	is eating
+	601 ms 55	has taken a fork (left)
+	601 ms 45	has taken a fork (right)
+	601 ms 65	has taken a fork (right)
+	601 ms 45	has taken a fork (left)
+	601 ms 55	is eating
+	601 ms 45	is eating
+	601 ms 69	has taken a fork (right)
+	601 ms 129	has taken a fork (left)
+	601 ms 69	has taken a fork (left)
+	601 ms 105	has taken a fork (right)
+	601 ms 69	is eating
+	601 ms 105	has taken a fork (left)
+	601 ms 78	is sleeping
+	601 ms 105	is eating
+	601 ms 97	has taken a fork (left)
+	601 ms 151	has taken a fork (left)
+	601 ms 115	has taken a fork (left)
+	601 ms 151	is eating
+	601 ms 133	has taken a fork (right)
+	601 ms 115	is eating
+	601 ms 135	is eating
+	601 ms 109	has taken a fork (right)
+	601 ms 63	has taken a fork (right)
+	601 ms 63	has taken a fork (left)
+	601 ms 94	is sleeping
+	601 ms 126	is sleeping
+	601 ms 110	is sleeping
+	601 ms 53	has taken a fork (right)
+	601 ms 53	has taken a fork (left)
+	601 ms 131	has taken a fork (right)
+	601 ms 53	is eating
+	601 ms 131	has taken a fork (left)
+	601 ms 81	has taken a fork (left)
+	601 ms 131	is eating
+	601 ms 87	has taken a fork (right)
+	601 ms 87	has taken a fork (left)
+	601 ms 65	has taken a fork (left)
+	601 ms 87	is eating
+	601 ms 143	has taken a fork (left)
+	601 ms 75	has taken a fork (right)
+	601 ms 71	has taken a fork (left)
+	601 ms 143	is eating
+	601 ms 129	is eating
+	601 ms 95	has taken a fork (left)
+	601 ms 71	is eating
+	601 ms 95	is eating
+	601 ms 97	is eating
+	601 ms 133	has taken a fork (left)
+	601 ms 86	is sleeping
+	601 ms 133	is eating
+	601 ms 73	has taken a fork (left)
+	601 ms 63	is eating
+	601 ms 73	is eating
+	601 ms 54	is sleeping
+	601 ms 43	has taken a fork (right)
+	601 ms 101	has taken a fork (right)
+	601 ms 43	has taken a fork (left)
+	601 ms 101	has taken a fork (left)
+	601 ms 101	is eating
+	601 ms 144	is sleeping
+	601 ms 43	is eating
+	601 ms 65	is eating
+	601 ms 75	has taken a fork (left)
+	601 ms 149	has taken a fork (right)
+	601 ms 57	is eating
+	601 ms 149	has taken a fork (left)
+	601 ms 141	has taken a fork (right)
+	601 ms 141	has taken a fork (left)
+	601 ms 141	is eating
+	601 ms 149	is eating
+	601 ms 89	has taken a fork (right)
+	601 ms 89	has taken a fork (left)
+	601 ms 93	is eating
+	601 ms 49	has taken a fork (right)
+	601 ms 109	has taken a fork (left)
+	601 ms 109	is eating
+	601 ms 75	is eating
+	601 ms 81	is eating
+	601 ms 139	has taken a fork (right)
+	601 ms 139	has taken a fork (left)
+	601 ms 139	is eating
+	601 ms 104	is sleeping
+	601 ms 89	is eating
+	601 ms 121	has taken a fork (left)
+	601 ms 121	is eating
+	601 ms 49	has taken a fork (left)
+	601 ms 49	is eating
+	602 ms 158	is sleeping
+	602 ms 160	is sleeping
+	602 ms 157	has taken a fork (right)
+	602 ms 1	has taken a fork (left)
+	602 ms 1	is eating
+	602 ms 159	has taken a fork (right)
+	602 ms 159	has taken a fork (left)
+	602 ms 159	is eating
+	602 ms 156	is sleeping
+	602 ms 157	has taken a fork (left)
+	602 ms 157	is eating
+	602 ms 155	has taken a fork (right)
+	602 ms 155	has taken a fork (left)
+	602 ms 155	is eating
+	800 ms 16	is thinking
+	800 ms 10	is thinking
+	800 ms 36	is thinking
+	800 ms 12	is thinking
+	800 ms 26	is thinking
+	800 ms 18	is thinking
+	800 ms 30	is thinking
+	800 ms 24	is thinking
+	800 ms 14	is thinking
+	800 ms 22	is thinking
+	800 ms 34	is thinking
+	800 ms 6	is thinking
+	800 ms 4	is thinking
+	800 ms 8	is thinking
+	800 ms 28	is thinking
+	800 ms 32	is thinking
+	800 ms 2	is thinking
+	800 ms 20	is thinking
+	801 ms 144	is thinking
+	801 ms 92	is thinking
+	801 ms 100	is thinking
+	801 ms 116	is thinking
+	801 ms 110	is thinking
+	801 ms 56	is thinking
+	801 ms 152	is thinking
+	801 ms 64	is thinking
+	801 ms 150	is thinking
+	801 ms 126	is thinking
+	801 ms 106	is thinking
+	801 ms 112	is thinking
+	801 ms 42	is thinking
+	801 ms 76	is thinking
+	801 ms 86	is thinking
+	801 ms 90	is thinking
+	801 ms 130	is thinking
+	801 ms 96	is thinking
+	801 ms 120	is thinking
+	801 ms 66	is thinking
+	801 ms 38	is thinking
+	801 ms 124	is thinking
+	801 ms 58	is thinking
+	801 ms 128	is thinking
+	801 ms 114	is thinking
+	801 ms 142	is thinking
+	801 ms 62	is thinking
+	801 ms 40	is thinking
+	801 ms 132	is thinking
+	801 ms 102	is thinking
+	801 ms 80	is thinking
+	801 ms 68	is thinking
+	801 ms 98	is thinking
+	801 ms 134	is thinking
+	801 ms 50	is thinking
+	801 ms 78	is thinking
+	801 ms 108	is thinking
+	801 ms 118	is thinking
+	801 ms 74	is thinking
+	801 ms 94	is thinking
+	801 ms 44	is thinking
+	801 ms 70	is thinking
+	801 ms 72	is thinking
+	801 ms 140	is thinking
+	801 ms 60	is thinking
+	801 ms 46	is thinking
+	801 ms 136	is thinking
+	801 ms 84	is thinking
+	801 ms 122	is thinking
+	801 ms 82	is thinking
+	801 ms 138	is thinking
+	801 ms 88	is thinking
+	801 ms 52	is thinking
+	801 ms 48	is thinking
+	801 ms 148	is thinking
+	801 ms 54	is thinking
+	801 ms 146	is thinking
+	801 ms 104	is thinking
+	801 ms 154	is thinking
+	802 ms 160	is thinking
+	802 ms 156	is thinking
+	802 ms 158	is thinking
+	900 ms 9	is sleeping
+	900 ms 3	is sleeping
+	900 ms 15	is sleeping
+	900 ms 31	is sleeping
+	900 ms 33	is sleeping
+	900 ms 19	is sleeping
+	900 ms 13	is sleeping
+	900 ms 17	is sleeping
+	900 ms 11	is sleeping
+	900 ms 8	has taken a fork (right)
+	900 ms 30	has taken a fork (right)
+	900 ms 29	is sleeping
+	900 ms 18	has taken a fork (right)
+	900 ms 12	has taken a fork (right)
+	900 ms 23	is sleeping
+	900 ms 32	has taken a fork (right)
+	900 ms 10	has taken a fork (right)
+	900 ms 28	has taken a fork (right)
+	900 ms 35	is sleeping
+	900 ms 27	is sleeping
+	900 ms 2	has taken a fork (right)
+	900 ms 20	has taken a fork (right)
+	900 ms 20	has taken a fork (left)
+	900 ms 4	has taken a fork (right)
+	900 ms 22	has taken a fork (right)
+	900 ms 21	is sleeping
+	900 ms 8	has taken a fork (left)
+	900 ms 34	has taken a fork (right)
+	900 ms 8	is eating
+	900 ms 26	has taken a fork (right)
+	900 ms 12	has taken a fork (left)
+	900 ms 26	has taken a fork (left)
+	900 ms 10	has taken a fork (left)
+	900 ms 12	is eating
+	900 ms 26	is eating
+	900 ms 10	is eating
+	900 ms 14	has taken a fork (right)
+	900 ms 20	is eating
+	900 ms 14	has taken a fork (left)
+	900 ms 4	has taken a fork (left)
+	900 ms 14	is eating
+	900 ms 22	has taken a fork (left)
+	900 ms 22	is eating
+	900 ms 24	has taken a fork (right)
+	900 ms 24	has taken a fork (left)
+	900 ms 24	is eating
+	900 ms 5	is sleeping
+	900 ms 4	is eating
+	900 ms 34	has taken a fork (left)
+	900 ms 34	is eating
+	900 ms 16	has taken a fork (right)
+	900 ms 16	has taken a fork (left)
+	900 ms 16	is eating
+	900 ms 32	has taken a fork (left)
+	900 ms 32	is eating
+	900 ms 18	has taken a fork (left)
+	900 ms 18	is eating
+	900 ms 6	has taken a fork (right)
+	900 ms 6	has taken a fork (left)
+	900 ms 6	is eating
+	900 ms 7	is sleeping
+	900 ms 28	has taken a fork (left)
+	900 ms 28	is eating
+	900 ms 25	is sleeping
+	900 ms 30	has taken a fork (left)
+	900 ms 30	is eating
+	901 ms 65	is sleeping
+	901 ms 111	is sleeping
+	901 ms 131	is sleeping
+	901 ms 81	is sleeping
+	901 ms 101	is sleeping
+	901 ms 73	is sleeping
+	901 ms 141	is sleeping
+	901 ms 113	is sleeping
+	901 ms 79	is sleeping
+	901 ms 125	is sleeping
+	901 ms 43	is sleeping
+	901 ms 53	is sleeping
+	901 ms 75	is sleeping
+	901 ms 129	is sleeping
+	901 ms 63	is sleeping
+	901 ms 85	is sleeping
+	901 ms 123	is sleeping
+	901 ms 47	is sleeping
+	901 ms 49	is sleeping
+	901 ms 71	is sleeping
+	901 ms 69	is sleeping
+	901 ms 109	is sleeping
+	901 ms 139	is sleeping
+	901 ms 105	is sleeping
+	901 ms 59	is sleeping
+	901 ms 130	has taken a fork (right)
+	901 ms 151	is sleeping
+	901 ms 130	has taken a fork (left)
+	901 ms 121	is sleeping
+	901 ms 130	is eating
+	901 ms 119	is sleeping
+	901 ms 100	has taken a fork (right)
+	901 ms 145	is sleeping
+	901 ms 149	is sleeping
+	901 ms 77	is sleeping
+	901 ms 72	has taken a fork (right)
+	901 ms 115	is sleeping
+	901 ms 97	is sleeping
+	901 ms 140	has taken a fork (right)
+	901 ms 134	has taken a fork (right)
+	901 ms 134	has taken a fork (left)
+	901 ms 124	has taken a fork (right)
+	901 ms 78	has taken a fork (right)
+	901 ms 124	has taken a fork (left)
+	901 ms 94	has taken a fork (right)
+	901 ms 136	has taken a fork (right)
+	901 ms 136	has taken a fork (left)
+	901 ms 54	has taken a fork (right)
+	901 ms 42	has taken a fork (right)
+	901 ms 42	has taken a fork (left)
+	901 ms 52	has taken a fork (right)
+	901 ms 88	has taken a fork (right)
+	901 ms 88	has taken a fork (left)
+	901 ms 137	is sleeping
+	901 ms 88	is eating
+	901 ms 95	is sleeping
+	901 ms 38	has taken a fork (right)
+	901 ms 84	has taken a fork (right)
+	901 ms 38	has taken a fork (left)
+	901 ms 89	is sleeping
+	901 ms 84	has taken a fork (left)
+	901 ms 56	has taken a fork (right)
+	901 ms 56	has taken a fork (left)
+	901 ms 84	is eating
+	901 ms 122	has taken a fork (right)
+	901 ms 39	is sleeping
+	901 ms 46	has taken a fork (right)
+	901 ms 56	is eating
+	901 ms 46	has taken a fork (left)
+	901 ms 153	is sleeping
+	901 ms 46	is eating
+	901 ms 57	is sleeping
+	901 ms 48	has taken a fork (right)
+	901 ms 146	has taken a fork (right)
+	901 ms 48	has taken a fork (left)
+	901 ms 37	is sleeping
+	901 ms 48	is eating
+	901 ms 102	has taken a fork (right)
+	901 ms 66	has taken a fork (right)
+	901 ms 108	has taken a fork (right)
+	901 ms 66	has taken a fork (left)
+	901 ms 108	has taken a fork (left)
+	901 ms 138	has taken a fork (right)
+	901 ms 108	is eating
+	901 ms 138	has taken a fork (left)
+	901 ms 138	is eating
+	901 ms 83	is sleeping
+	901 ms 92	has taken a fork (right)
+	901 ms 58	has taken a fork (right)
+	901 ms 104	has taken a fork (right)
+	901 ms 58	has taken a fork (left)
+	901 ms 150	has taken a fork (right)
+	901 ms 58	is eating
+	901 ms 150	has taken a fork (left)
+	901 ms 104	has taken a fork (left)
+	901 ms 150	is eating
+	901 ms 107	is sleeping
+	901 ms 104	is eating
+	901 ms 91	is sleeping
+	901 ms 93	is sleeping
+	901 ms 64	has taken a fork (right)
+	901 ms 64	has taken a fork (left)
+	901 ms 44	has taken a fork (right)
+	901 ms 116	has taken a fork (right)
+	901 ms 44	has taken a fork (left)
+	901 ms 116	has taken a fork (left)
+	901 ms 44	is eating
+	901 ms 76	has taken a fork (right)
+	901 ms 45	is sleeping
+	901 ms 76	has taken a fork (left)
+	901 ms 100	has taken a fork (left)
+	901 ms 76	is eating
+	901 ms 126	has taken a fork (right)
+	901 ms 100	is eating
+	901 ms 117	is sleeping
+	901 ms 143	is sleeping
+	901 ms 133	is sleeping
+	901 ms 112	has taken a fork (right)
+	901 ms 134	is eating
+	901 ms 152	has taken a fork (right)
+	901 ms 38	is eating
+	901 ms 152	has taken a fork (left)
+	901 ms 122	has taken a fork (left)
+	901 ms 152	is eating
+	901 ms 122	is eating
+	901 ms 36	has taken a fork (right)
+	901 ms 36	has taken a fork (left)
+	901 ms 68	has taken a fork (right)
+	901 ms 146	has taken a fork (left)
+	901 ms 68	has taken a fork (left)
+	901 ms 82	has taken a fork (right)
+	901 ms 146	is eating
+	901 ms 68	is eating
+	901 ms 106	has taken a fork (right)
+	901 ms 90	has taken a fork (right)
+	901 ms 82	has taken a fork (left)
+	901 ms 106	has taken a fork (left)
+	901 ms 82	is eating
+	901 ms 106	is eating
+	901 ms 103	is sleeping
+	901 ms 90	has taken a fork (left)
+	901 ms 50	has taken a fork (right)
+	901 ms 90	is eating
+	901 ms 50	has taken a fork (left)
+	901 ms 67	is sleeping
+	901 ms 50	is eating
+	901 ms 144	has taken a fork (right)
+	901 ms 80	has taken a fork (right)
+	901 ms 144	has taken a fork (left)
+	901 ms 80	has taken a fork (left)
+	901 ms 51	is sleeping
+	901 ms 132	has taken a fork (right)
+	901 ms 80	is eating
+	901 ms 64	is eating
+	901 ms 132	has taken a fork (left)
+	901 ms 148	has taken a fork (right)
+	901 ms 132	is eating
+	901 ms 142	has taken a fork (right)
+	901 ms 114	has taken a fork (right)
+	901 ms 142	has taken a fork (left)
+	901 ms 72	has taken a fork (left)
+	901 ms 126	has taken a fork (left)
+	901 ms 72	is eating
+	901 ms 126	is eating
+	901 ms 114	has taken a fork (left)
+	901 ms 86	has taken a fork (right)
+	901 ms 114	is eating
+	901 ms 140	has taken a fork (left)
+	901 ms 140	is eating
+	901 ms 127	is sleeping
+	901 ms 94	has taken a fork (left)
+	901 ms 112	has taken a fork (left)
+	901 ms 112	is eating
+	901 ms 54	has taken a fork (left)
+	901 ms 135	is sleeping
+	901 ms 136	is eating
+	901 ms 52	has taken a fork (left)
+	901 ms 52	is eating
+	901 ms 74	has taken a fork (right)
+	901 ms 40	has taken a fork (right)
+	901 ms 74	has taken a fork (left)
+	901 ms 62	has taken a fork (right)
+	901 ms 40	has taken a fork (left)
+	901 ms 40	is eating
+	901 ms 62	has taken a fork (left)
+	901 ms 62	is eating
+	901 ms 60	has taken a fork (right)
+	901 ms 36	is eating
+	901 ms 60	has taken a fork (left)
+	901 ms 99	is sleeping
+	901 ms 60	is eating
+	901 ms 147	is sleeping
+	901 ms 61	is sleeping
+	901 ms 120	has taken a fork (right)
+	901 ms 120	has taken a fork (left)
+	901 ms 148	has taken a fork (left)
+	901 ms 120	is eating
+	901 ms 148	is eating
+	901 ms 116	is eating
+	901 ms 87	is sleeping
+	901 ms 86	has taken a fork (left)
+	901 ms 42	is eating
+	901 ms 94	is eating
+	901 ms 55	is sleeping
+	901 ms 41	is sleeping
+	901 ms 98	has taken a fork (right)
+	901 ms 66	is eating
+	901 ms 118	has taken a fork (right)
+	901 ms 98	has taken a fork (left)
+	901 ms 118	has taken a fork (left)
+	901 ms 110	has taken a fork (right)
+	901 ms 98	is eating
+	901 ms 118	is eating
+	901 ms 110	has taken a fork (left)
+	901 ms 110	is eating
+	901 ms 54	is eating
+	901 ms 96	has taken a fork (right)
+	901 ms 96	has taken a fork (left)
+	901 ms 124	is eating
+	901 ms 96	is eating
+	901 ms 74	is eating
+	901 ms 70	has taken a fork (right)
+	901 ms 92	has taken a fork (left)
+	901 ms 78	has taken a fork (left)
+	901 ms 144	is eating
+	901 ms 70	has taken a fork (left)
+	901 ms 142	is eating
+	901 ms 128	has taken a fork (right)
+	901 ms 102	has taken a fork (left)
+	901 ms 128	has taken a fork (left)
+	901 ms 102	is eating
+	901 ms 128	is eating
+	901 ms 92	is eating
+	901 ms 70	is eating
+	901 ms 86	is eating
+	901 ms 78	is eating
+	902 ms 155	is sleeping
+	902 ms 157	is sleeping
+	902 ms 154	has taken a fork (right)
+	902 ms 154	has taken a fork (left)
+	902 ms 154	is eating
+	902 ms 156	has taken a fork (right)
+	902 ms 156	has taken a fork (left)
+	902 ms 156	is eating
+	902 ms 1	is sleeping
+	902 ms 2	has taken a fork (left)
+	902 ms 2	is eating
+	902 ms 160	has taken a fork (right)
+	902 ms 159	is sleeping
+	902 ms 160	has taken a fork (left)
+	902 ms 160	is eating
+	902 ms 158	has taken a fork (right)
+	902 ms 158	has taken a fork (left)
+	902 ms 158	is eating
+	1100 ms 15	is thinking
+	1100 ms 17	is thinking
+	1100 ms 7	is thinking
+	1100 ms 27	is thinking
+	1100 ms 5	is thinking
+	1100 ms 21	is thinking
+	1100 ms 9	is thinking
+	1100 ms 31	is thinking
+	1100 ms 23	is thinking
+	1100 ms 3	is thinking
+	1100 ms 19	is thinking
+	1100 ms 11	is thinking
+	1100 ms 33	is thinking
+	1100 ms 25	is thinking
+	1100 ms 35	is thinking
+	1100 ms 29	is thinking
+	1100 ms 13	is thinking
+	1101 ms 113	is thinking
+	1101 ms 81	is thinking
+	1101 ms 127	is thinking
+	1101 ms 105	is thinking
+	1101 ms 61	is thinking
+	1101 ms 83	is thinking
+	1101 ms 125	is thinking
+	1101 ms 49	is thinking
+	1101 ms 57	is thinking
+	1101 ms 117	is thinking
+	1101 ms 41	is thinking
+	1101 ms 91	is thinking
+	1101 ms 115	is thinking
+	1101 ms 119	is thinking
+	1101 ms 133	is thinking
+	1101 ms 103	is thinking
+	1101 ms 59	is thinking
+	1101 ms 149	is thinking
+	1101 ms 139	is thinking
+	1101 ms 71	is thinking
+	1101 ms 43	is thinking
+	1101 ms 101	is thinking
+	1101 ms 141	is thinking
+	1101 ms 77	is thinking
+	1101 ms 55	is thinking
+	1101 ms 99	is thinking
+	1101 ms 53	is thinking
+	1101 ms 121	is thinking
+	1101 ms 89	is thinking
+	1101 ms 75	is thinking
+	1101 ms 93	is thinking
+	1101 ms 145	is thinking
+	1101 ms 45	is thinking
+	1101 ms 79	is thinking
+	1101 ms 73	is thinking
+	1101 ms 107	is thinking
+	1101 ms 37	is thinking
+	1101 ms 151	is thinking
+	1101 ms 111	is thinking
+	1101 ms 131	is thinking
+	1101 ms 65	is thinking
+	1101 ms 47	is thinking
+	1101 ms 143	is thinking
+	1101 ms 147	is thinking
+	1101 ms 63	is thinking
+	1101 ms 153	is thinking
+	1101 ms 135	is thinking
+	1101 ms 85	is thinking
+	1101 ms 109	is thinking
+	1101 ms 137	is thinking
+	1101 ms 39	is thinking
+	1101 ms 87	is thinking
+	1101 ms 95	is thinking
+	1101 ms 69	is thinking
+	1101 ms 67	is thinking
+	1101 ms 123	is thinking
+	1101 ms 97	is thinking
+	1101 ms 51	is thinking
+	1101 ms 129	is thinking
+	1102 ms 159	is thinking
+	1102 ms 157	is thinking
+	1102 ms 155	is thinking
+	1102 ms 1	is thinking
+	1200 ms 23	is dead

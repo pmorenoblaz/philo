@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 16:05:33 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/17 17:30:49 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/19 17:24:16 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,18 +22,6 @@ int	ft_check_args(int argc)
 		return (0);
 	}
 	return (1);
-}
-
-void	print_values(t_philos_data *data)
-{
-	printf("Number of philos: %d \n", data->nphilos);
-	printf("Time to die: %d \n", data->time_die);
-	printf("Time to eat: %d \n", data->time_eat);
-	printf("Time to sleep: %d \n", data->time_sleep);
-	if (data->philo_meals != -1)
-		printf("Number of meals: %d \n", data->philo_meals);
-	printf("Initial time: %d\n", data->initial_time);
-	printf("Mutex: %p\n", &data->mutex);
 }
 
 int	ft_valid_args(char	*data)

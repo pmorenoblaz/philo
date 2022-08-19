@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:38:34 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/19 18:46:03 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,28 +31,7 @@ void	init_data(t_philos_data **data)
 	(*data)->time_eat = -1;
 	(*data)->time_sleep = -1;
 	(*data)->philo_meals = -1;
-}
-
-int	ft_start_philos(t_philo **philos, t_philos_data *data)
-{
-	int		i;
-	t_philo	*aux;
-
-	i = 0;
-	while (i < data->nphilos)
-	{
-		aux = ft_lstnew(i + 1);
-		if (!aux)
-		{
-			free_philosophers(*philos);
-			free(data);
-			return (1);
-		}
-		else
-			ft_lstadd_back(philos, aux);
-		i++;
-	}
-	return (0);
+	(*data)->alive = 1;
 }
 
 int	main(int argc, char **argv)
@@ -65,7 +44,7 @@ int	main(int argc, char **argv)
 		return (1);
 	data->list = 0;
 	init_data(&data);
-	// print_values(data);
+	print_values(data);
 	if (ft_check_args(argc) == 0)
 	{
 		free(data);
@@ -86,11 +65,11 @@ int	main(int argc, char **argv)
 		print_philos(data->list);
 		data->initial_time = ft_get_time();
 		ft_init_threads(data->list, &ft_routine);
+		checker(data->list);
 		ft_join_threads(data->list);
 		ft_destroy_mutex(data->list);
-		sleep(1);
 	}
-	free_philosophers(data->list);
+	// free_philosophers(data->list);
 	free(data);
 	return (0);
 }
