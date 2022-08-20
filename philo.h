@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 18:16:36 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 18:23:10 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 int		ft_atoi(const char *str);
 
 /* main.c */
-void	init_data(t_philos_data **data);
+int		init_data(t_philos_data **data, char **argv);
 
 /* add_values.c */
 int		ft_check_args(int argc);
