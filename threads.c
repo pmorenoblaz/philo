@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:20:28 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 13:59:51 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 16:33:42 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,6 @@ int	ft_join_threads(t_philo *philo)
 		if (aux->right)
 			sig = aux->right;
 		pthread_join(sig->thread, NULL);
-		// printf("JOIN soy %d\n", aux->philo);
 		aux = sig;
 		if (sig->philo == 1)
 			return (0);
@@ -59,7 +58,6 @@ int	ft_destroy_mutex(t_philo *philo)
 		if (aux->right)
 			sig = aux->right;
 		pthread_mutex_destroy(&sig->fork);
-		// printf("ADIOS soy %d\n", aux->philo);
 		aux = sig;
 		if (sig->philo == 1)
 			return (0);

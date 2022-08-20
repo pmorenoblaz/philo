@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:21:41 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 14:02:17 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 17:37:41 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_start_philos(t_philo **philos, t_philos_data *data)
 		aux = ft_lstnew(i + 1);
 		if (!aux)
 		{
-			free_philosophers(*philos);
+			ft_free_philosophers(*philos);
 			free(data);
 			return (1);
 		}

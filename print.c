@@ -6,13 +6,13 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:23:06 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 18:58:31 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 16:41:19 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	print_values(t_philos_data *data)
+void	ft_print_values(t_philos_data *data)
 {
 	printf("Number of philos: %d \n", data->nphilos);
 	printf("Time to die: %d \n", data->time_die);
@@ -24,7 +24,7 @@ void	print_values(t_philos_data *data)
 	printf("Mutex: %p\n", &data->mutex);
 }
 
-void	print_philos(t_philo *philo)
+void	ft_print_philos(t_philo *philo)
 {
 	t_philo	*sig;
 	t_philo	*aux;
@@ -46,13 +46,13 @@ void	print_philos(t_philo *philo)
 	}
 }
 
-void	print_action(char *str, t_philo *philo)
+void	ft_print_action(char *str, t_philo *philo)
 {
 	int	time;
 
 	time = ft_get_time();
 	pthread_mutex_lock(&philo->data->print);
-	if (philo->data->alive == true)
-		printf("\t%d ms %d\t%s\n", time - philo->data->initial_time, philo->philo, str);
+	if (philo->data->death == 0)
+		printf("\t%d  %d\t  %s\n", time - philo->data->initial_time, philo->philo, str);
 	pthread_mutex_unlock(&philo->data->print);
 }

@@ -6,13 +6,13 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:24:42 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 17:25:05 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 16:50:00 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	free_philosophers(t_philo *philos)
+void	ft_free_philosophers(t_philo *philos)
 {
 	t_philo	*sig;
 	t_philo	*aux;
@@ -20,11 +20,12 @@ void	free_philosophers(t_philo *philos)
 
 	aux = philos;
 	i = 1;
-	while (i <= aux->data->nphilos)
+	while (i < aux->data->nphilos)
 	{
 		sig = aux->right;
 		free(aux);
 		aux = sig;
 		i++;
 	}
+	free(aux);
 }

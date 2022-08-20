@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:25:21 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 15:46:04 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 18:20:51 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_philo_eating(t_philo *philo)
 {
 	while (1)
 	{
-		if (philo->data->alive == false)
+		if (philo->data->death == 1)
 			break ;
 		if (ft_get_time() - philo->last_meal >= philo->data->time_eat)
 			break ;
@@ -27,7 +27,7 @@ void	ft_philo_eating(t_philo *philo)
 		&& philo->data->philo_meals != -1)
 	{
 		philo->data->nsatisfied++;
-		philo->is_hungry = false;
+		philo->is_hungry = 0;
 	}
 }
 
@@ -52,7 +52,7 @@ int	ft_eat(t_philo *philo)
 		return (1);
 	get_left_fork(philo);
 	pthread_mutex_lock(&philo->data->life);
-	print_action("is eating", philo);
+	ft_print_action("is eating", philo);
 	philo->last_meal = ft_get_time();
 	pthread_mutex_unlock(&philo->data->life);
 	usleep(philo->data->time_eat * 500);
@@ -66,7 +66,7 @@ void	ft_philo_sleeping(t_philo *philo)
 	int	time;
 
 	time = ft_get_time();
-	print_action("is sleeping", philo);
+	ft_print_action("is sleeping", philo);
 	usleep(philo->data->time_sleep * 500);
 	while (1)
 	{
@@ -89,12 +89,15 @@ void	*ft_routine(void *philo)
 		usleep(data->time_eat * 500);
 	while (1)
 	{
-		if (data->alive == false || ph->is_hungry == false)
+		if (data->death == 1 || ph->is_hungry == 0)
+		{
+			ft_print_action("estoy lleno", ph);
 			break ;
+		}
 		if (ft_eat(ph))
 			break ;
 		ft_philo_sleeping(ph);
-		print_action("is thinking", ph);
+		ft_print_action("is thinking", ph);
 	}
 	return (0);
 }

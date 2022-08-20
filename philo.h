@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 15:47:04 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 18:16:36 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ typedef struct s_philos_data
 	int				philo_meals;
 	int				nsatisfied;
 	int				death;
-	int				alive;
 	int				hungry;
 	int				initial_time;
 	struct s_philo	*list;
@@ -72,7 +71,7 @@ void	init_data(t_philos_data **data);
 /* add_values.c */
 int		ft_check_args(int argc);
 int		ft_valid_args(char	*data);
-int		add_values(char **argv, t_philos_data **data);
+int		ft_add_values(char **argv, t_philos_data **data);
 
 /* list_functions.c */
 t_philo	*ft_lstlast(t_philo *lst);
@@ -85,12 +84,12 @@ void	ft_init_philosophers(t_philo *philo, t_philos_data *data);
 void	ft_link_philos(t_philo *philos);
 
 /* free_functions.c */
-void	free_philosophers(t_philo *philos);
+void	ft_free_philosophers(t_philo *philos);
 
 /* print.c */
-void	print_values(t_philos_data *data);
-void	print_philos(t_philo *philo);
-void	print_action(char *str, t_philo *philo);
+void	ft_print_values(t_philos_data *data);
+void	ft_print_philos(t_philo *philo);
+void	ft_print_action(char *str, t_philo *philo);
 
 /* threads.c */
 void	ft_init_threads(t_philo *philo, void *routine);
@@ -102,8 +101,10 @@ void	*ft_routine(void *philo);
 int		ft_eating(t_philo *philo);
 void	ft_sleeping(t_philo *philo);
 
-/* checker.c */
-void	checker(t_philo *philos);
+/* ft_checker.c */
+void	ft_check_satisfied_philos(t_philo *philo, t_philos_data *data);
+void	ft_die_philo_die(t_philo *philo);
+void	ft_check_if_philo_died(t_philo *philos);
 
 /* forks.c */
 void	get_right_fork(t_philo *philo);

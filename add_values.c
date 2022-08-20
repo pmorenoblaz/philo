@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/16 16:05:33 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 17:24:16 by pmoreno-         ###   ########.fr       */
+/*   Created: 2022/08/20 16:08:50 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/20 16:53:17 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_check_values(t_philos_data *data)
 	return (0);
 }
 
-int	add_values(char **argv, t_philos_data **data)
+int	ft_add_values(char **argv, t_philos_data **data)
 {
 	(*data)->nphilos = ft_valid_args(argv[1]);
 	(*data)->time_die = ft_valid_args(argv[2]);
@@ -54,6 +54,5 @@ int	add_values(char **argv, t_philos_data **data)
 	(*data)->time_sleep = ft_valid_args(argv[4]);
 	if (argv[5])
 		(*data)->philo_meals = ft_valid_args(argv[5]);
-	pthread_mutex_init(&(*data)->mutex, NULL);
 	return (ft_check_values(*data));
 }
