@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:20:28 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 16:33:42 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 18:52:11 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,9 @@ int	ft_destroy_mutex(t_philo *philo)
 	t_philo	*sig;
 	t_philo	*aux;
 
+	pthread_mutex_destroy(&philo->data->life);
+	pthread_mutex_destroy(&philo->data->print);
+	pthread_mutex_destroy(&philo->data->mutex);
 	aux = philo;
 	while (aux)
 	{

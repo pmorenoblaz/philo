@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 16:00:00 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 18:23:53 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 18:37:39 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ int	init_data(t_philos_data **data, char **argv)
 	(*data)->time_sleep = -1;
 	(*data)->philo_meals = -1;
 	(*data)->death = 0;
+	(*data)->nsatisfied = 0;
 	if (ft_add_values(argv, data) == -1)
 	{
 		printf("Bad arguments\n");

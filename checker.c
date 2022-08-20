@@ -6,26 +6,29 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 16:09:10 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 18:18:42 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:00:17 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	ft_check_satisfied_philos(t_philo *philo, t_philos_data *data)
-{
-	if (philo->data->philo_meals != -1)
-	{
-		if (philo->is_hungry == 0)
-			data->nsatisfied++;
-		if (philo->philo == data->nphilos && data->nsatisfied != data->nphilos)
-			data->nsatisfied = 0;
-	}
-}
+// void	ft_check_satisfied_philos(t_philo *philo, t_philos_data *data)
+// {
+// 	if (philo->meals >= philo->data->philo_meals
+// 		&& philo->data->philo_meals != -1)
+// 	{
+// 			ft_print_action("estoy lleno", philo);
+// 		data->nsatisfied++;
+// 		philo->is_hungry = 0;
+// 		if (philo->philo == data->nphilos && data->nsatisfied != data->nphilos)
+// 			data->nsatisfied = 0;
+// 	}
+// }
 
 void	ft_die_philo_die(t_philo *philo)
 {
 	ft_print_action("died", philo);
+	printf("-------> %d\n", philo->data->nsatisfied);
 	philo->data->death = 1;
 }
 
@@ -46,11 +49,7 @@ void	ft_check_if_philo_died(t_philo *philos)
 			break ;
 		}
 		if (ft_get_time() - sig->last_meal >= sig->data->time_die)
-		{
-			// ft_die_philo_die(sig);
-			ft_print_action("died",  sig);
-			sig->data->death = 1;
-		}
+			ft_die_philo_die(sig);
 		pthread_mutex_unlock(&sig->data->life);
 		// ft_check_satisfied_philos(sig, sig->data);
 		sig = sig->right;
