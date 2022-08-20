@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:23:06 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 16:41:19 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:05:34 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,6 @@ void	ft_print_action(char *str, t_philo *philo)
 	time = ft_get_time();
 	pthread_mutex_lock(&philo->data->print);
 	if (philo->data->death == 0)
-		printf("\t%d  %d\t  %s\n", time - philo->data->initial_time, philo->philo, str);
+		printf("\033[1;32m\t%d \033[0m %d\t  %s\n", time - philo->data->initial_time, philo->philo, str);
 	pthread_mutex_unlock(&philo->data->print);
 }

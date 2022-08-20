@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:25:21 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 19:00:11 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:04:23 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,10 +92,7 @@ void	*ft_routine(void *philo)
 	while (1)
 	{
 		if (data->death == 1 || ph->is_hungry == 0)
-		{
-			// ft_print_action("estoy lleno", ph);
 			break ;
-		}
 		if (ft_eat(ph))
 			break ;
 		ft_philo_sleeping(ph);

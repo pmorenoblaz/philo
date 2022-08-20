@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 16:09:10 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 19:00:17 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:04:07 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@
 void	ft_die_philo_die(t_philo *philo)
 {
 	ft_print_action("died", philo);
-	printf("-------> %d\n", philo->data->nsatisfied);
 	philo->data->death = 1;
 }
 
@@ -51,7 +50,6 @@ void	ft_check_if_philo_died(t_philo *philos)
 		if (ft_get_time() - sig->last_meal >= sig->data->time_die)
 			ft_die_philo_die(sig);
 		pthread_mutex_unlock(&sig->data->life);
-		// ft_check_satisfied_philos(sig, sig->data);
 		sig = sig->right;
 		usleep(300);
 		if (sig == philos->left && sig->data->nphilos > 1)
