@@ -1,23 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   time_values.c                                      :+:      :+:    :+:   */
+/*   forks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/16 16:51:59 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/18 19:29:52 by pmoreno-         ###   ########.fr       */
+/*   Created: 2022/08/20 15:44:47 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/20 15:46:00 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	ft_get_time(void)
+void	get_right_fork(t_philo *philo)
 {
-	int				t;
-	struct timeval	time;
+	pthread_mutex_lock(&philo->fork);
+	print_action("has taken a fork (right)", philo);
+}
 
-	gettimeofday(&time, NULL);
-	t = time.tv_sec * 1000 + time.tv_usec / 1000;
-	return (t);
+void	get_left_fork(t_philo *philo)
+{
+	pthread_mutex_lock(&philo->left->fork);
+	print_action("has taken a fork (left)", philo);
+}
+
+void	ft_unlock_forks(t_philo *philo)
+{
+	pthread_mutex_unlock(&philo->fork);
+	pthread_mutex_unlock(&philo->left->fork);
 }

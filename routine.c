@@ -6,13 +6,13 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:25:21 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 19:15:28 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 15:46:04 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	ft_keep_eating(t_philo *philo)
+void	ft_philo_eating(t_philo *philo)
 {
 	while (1)
 	{
@@ -23,42 +23,45 @@ void	ft_keep_eating(t_philo *philo)
 		usleep(500);
 	}
 	philo->meals++;
-	if (philo->meals >= philo->data->philo_meals && philo->data->philo_meals != -1)
+	if (philo->meals >= philo->data->philo_meals
+		&& philo->data->philo_meals != -1)
 	{
-		// pthread_mutex_lock(&philo->data->mutex_satisfaction);
 		philo->data->nsatisfied++;
-		// pthread_mutex_unlock(&philo->data->mutex_satisfaction);
 		philo->is_hungry = false;
 	}
 }
 
-int	ft_eating(t_philo *philo)
+int	ft_only_one_philo(t_philo *philo)
 {
-	pthread_mutex_lock(&philo->fork);
-	print_action("has taken a fork (right)", philo);
 	if (philo->data->nphilos == 1)
 	{
 		philo->last_meal = ft_get_time();
-		pthread_mutex_unlock(&philo->fork);
 		while (ft_get_time() - philo->last_meal
 			< philo->data->time_die)
 			usleep(1000);
+		pthread_mutex_unlock(&philo->fork);
 		return (1);
 	}
-	pthread_mutex_lock(&philo->left->fork);
-	print_action("has taken a fork (left)", philo);
+	return (0);
+}
+
+int	ft_eat(t_philo *philo)
+{
+	get_right_fork(philo);
+	if (ft_only_one_philo(philo) == 1)
+		return (1);
+	get_left_fork(philo);
 	pthread_mutex_lock(&philo->data->life);
 	print_action("is eating", philo);
 	philo->last_meal = ft_get_time();
 	pthread_mutex_unlock(&philo->data->life);
 	usleep(philo->data->time_eat * 500);
-	ft_keep_eating(philo);
-	pthread_mutex_unlock(&philo->fork);
-	pthread_mutex_unlock(&philo->left->fork);
+	ft_philo_eating(philo);
+	ft_unlock_forks(philo);
 	return (0);
 }
 
-void	ft_sleeping(t_philo *philo)
+void	ft_philo_sleeping(t_philo *philo)
 {
 	int	time;
 
@@ -86,12 +89,11 @@ void	*ft_routine(void *philo)
 		usleep(data->time_eat * 500);
 	while (1)
 	{
-		// printf("HOLA soy %d\n", ph->philo);
 		if (data->alive == false || ph->is_hungry == false)
 			break ;
-		if (ft_eating(ph))
+		if (ft_eat(ph))
 			break ;
-		ft_sleeping(ph);
+		ft_philo_sleeping(ph);
 		print_action("is thinking", ph);
 	}
 	return (0);

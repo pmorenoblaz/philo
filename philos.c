@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:21:41 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 17:22:50 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 14:02:17 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ void	ft_init_philosophers(t_philo *philo, t_philos_data *data)
 	t_philo	*sig;
 
 	sig = philo;
+	pthread_mutex_init(&data->life, NULL);
+	pthread_mutex_init(&data->print, NULL);
 	while (sig)
 	{
 		sig->is_hungry = 1;

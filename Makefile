@@ -6,7 +6,7 @@
 #    By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/16 12:55:30 by pmoreno-          #+#    #+#              #
-#    Updated: 2022/08/19 18:42:10 by pmoreno-         ###   ########.fr        #
+#    Updated: 2022/08/20 15:47:26 by pmoreno-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ NONE	= '\033[0m'
 
 SRCS	= main.c check_args.c ft_atoi.c ft_itoa.c ft_putchar_fd.c ft_putstr_fd.c ft_strdup.c ft_strlcpy.c ft_strlen.c \
 			add_values.c time_values.c list_functions.c philos.c print.c routine.c threads.c \
-			free_functions.c checker.c
+			free_functions.c checker.c forks.c
 			
 OBJS	= $(SRCS:.c=.o)
 

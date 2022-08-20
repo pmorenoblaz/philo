@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 15:59:56 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 18:47:47 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 15:47:04 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,6 @@ int		ft_start_philos(t_philo **philos, t_philos_data *data);
 void	ft_init_philosophers(t_philo *philo, t_philos_data *data);
 void	ft_link_philos(t_philo *philos);
 
-
 /* free_functions.c */
 void	free_philosophers(t_philo *philos);
 
@@ -104,6 +103,11 @@ int		ft_eating(t_philo *philo);
 void	ft_sleeping(t_philo *philo);
 
 /* checker.c */
-void    checker(t_philo *philos);
+void	checker(t_philo *philos);
+
+/* forks.c */
+void	get_right_fork(t_philo *philo);
+void	get_left_fork(t_philo *philo);
+void	ft_unlock_forks(t_philo *philo);
 
 #endif

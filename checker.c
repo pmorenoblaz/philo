@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 18:32:19 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/19 19:05:51 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 15:36:39 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void    checker(t_philo *philos)
 		}
 		if (ft_get_time() - sig->last_meal >= sig->data->time_die)
 		{
-			print_action("is dead", sig);
+			print_action("died", sig);
 			sig->data->alive = 0;
 		}
 		pthread_mutex_unlock(&sig->data->life);
