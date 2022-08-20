@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 16:09:10 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 19:04:07 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:12:15 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@
 
 void	ft_die_philo_die(t_philo *philo)
 {
-	ft_print_action("died", philo);
+	ft_print_die("died", philo);
 	philo->data->death = 1;
 }
 

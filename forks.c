@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 15:44:47 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/20 16:01:49 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/20 19:15:17 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 void	get_right_fork(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->fork);
-	ft_print_action("has taken a fork (right)", philo);
+	ft_print_fork("has taken a fork (right)", philo);
 }
 
 void	get_left_fork(t_philo *philo)
 {
 	pthread_mutex_lock(&philo->left->fork);
-	ft_print_action("has taken a fork (left)", philo);
+	ft_print_fork("has taken a fork (left)", philo);
 }
 
 void	ft_unlock_forks(t_philo *philo)
