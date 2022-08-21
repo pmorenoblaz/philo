@@ -1,31 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   forks.c                                            :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/20 15:44:47 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/21 12:05:54 by pmoreno-         ###   ########.fr       */
+/*   Created: 2021/09/15 11:01:09 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/08 14:09:23 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	get_right_fork(t_philo *philo)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	pthread_mutex_lock(&philo->fork);
-	ft_print_fork("has taken a fork (right)", philo);
-}
+	size_t	i;
 
-void	get_left_fork(t_philo *philo)
-{
-	pthread_mutex_lock(&philo->left->fork);
-	ft_print_fork("has taken a fork (left)", philo);
-}
-
-void	ft_unlock_forks(t_philo *philo)
-{
-	pthread_mutex_unlock(&philo->fork);
-	pthread_mutex_unlock(&philo->left->fork);
+	if (dstsize == 0)
+		return (ft_strlen(src));
+	i = 0;
+	while (i < (dstsize - 1) && i < ft_strlen(src))
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = 0;
+	return (ft_strlen(src));
 }

@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 17:23:06 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/21 12:07:44 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/21 12:32:51 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,15 +71,3 @@ void	ft_print_fork(char *str, t_philo *philo)
 			time - philo->data->initial_time, philo->philo, str);
 	pthread_mutex_unlock(&philo->data->print);
 }
-
-// void	ft_print_action(char *str, t_philo *philo)
-// {
-// 	int	time;
-
-// 	time = ft_get_time();
-// 	pthread_mutex_lock(&philo->data->print);
-// 	if (philo->data->death == 0)
-// 		printf("\t%d  %d\t  %s\n",
-// 			time - philo->data->initial_time, philo->philo, str);
-// 	pthread_mutex_unlock(&philo->data->print);
-// }

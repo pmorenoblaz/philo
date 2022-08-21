@@ -1,31 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   forks.c                                            :+:      :+:    :+:   */
+/*   free_functions.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/20 15:44:47 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/21 12:05:54 by pmoreno-         ###   ########.fr       */
+/*   Created: 2022/08/19 17:24:42 by pmoreno-          #+#    #+#             */
+/*   Updated: 2022/08/20 16:50:00 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	get_right_fork(t_philo *philo)
+void	ft_free_philosophers(t_philo *philos)
 {
-	pthread_mutex_lock(&philo->fork);
-	ft_print_fork("has taken a fork (right)", philo);
-}
+	t_philo	*sig;
+	t_philo	*aux;
+	int		i;
 
-void	get_left_fork(t_philo *philo)
-{
-	pthread_mutex_lock(&philo->left->fork);
-	ft_print_fork("has taken a fork (left)", philo);
-}
-
-void	ft_unlock_forks(t_philo *philo)
-{
-	pthread_mutex_unlock(&philo->fork);
-	pthread_mutex_unlock(&philo->left->fork);
+	aux = philos;
+	i = 1;
+	while (i < aux->data->nphilos)
+	{
+		sig = aux->right;
+		free(aux);
+		aux = sig;
+		i++;
+	}
+	free(aux);
 }
