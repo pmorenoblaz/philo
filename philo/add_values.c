@@ -6,7 +6,7 @@
 /*   By: pmoreno- <pmoreno-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 16:08:50 by pmoreno-          #+#    #+#             */
-/*   Updated: 2022/08/21 12:10:56 by pmoreno-         ###   ########.fr       */
+/*   Updated: 2022/08/21 13:14:25 by pmoreno-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ int	ft_check_values(t_philos_data *data)
 {
 	if ((*data).nphilos == -1 || (*data).nphilos == 0)
 	{
-		printf("There are not enough philos");
+		printf("There are not enough philos\n");
 		return (-1);
 	}
 	else if ((*data).time_die == -1 || (*data).time_eat == -1
